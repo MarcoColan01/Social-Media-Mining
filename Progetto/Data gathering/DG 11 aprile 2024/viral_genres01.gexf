@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-04-11">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="urbano latino" label="urbano latino" />
+      <node id="urbano chileno" label="urbano chileno" />
+      <node id="mambo chileno" label="mambo chileno" />
+      <node id="funk rj" label="funk rj" />
+      <node id="funk 150 bpm" label="funk 150 bpm" />
+      <node id="latin pop" label="latin pop" />
+      <node id="colombian pop" label="colombian pop" />
+      <node id="latin viral pop" label="latin viral pop" />
+      <node id="reggaeton colombiano" label="reggaeton colombiano" />
+      <node id="kashmiri pop" label="kashmiri pop" />
+      <node id="pov: indie" label="pov: indie" />
+      <node id="modern rock" label="modern rock" />
+      <node id="irish singer-songwriter" label="irish singer-songwriter" />
+      <node id="rap" label="rap" />
+      <node id="conscious hip hop" label="conscious hip hop" />
+      <node id="hip hop" label="hip hop" />
+      <node id="west coast rap" label="west coast rap" />
+      <node id="israeli mediterranean" label="israeli mediterranean" />
+      <node id="lithuanian indie" label="lithuanian indie" />
+      <node id="lithuanian pop" label="lithuanian pop" />
+      <node id="malay rap" label="malay rap" />
+      <node id="trap latino" label="trap latino" />
+      <node id="afropop" label="afropop" />
+      <node id="nigerian pop" label="nigerian pop" />
+      <node id="afrobeats" label="afrobeats" />
+      <node id="latin christian" label="latin christian" />
+      <node id="canadian country" label="canadian country" />
+      <node id="canadian contemporary country" label="canadian contemporary country" />
+      <node id="panamanian pop" label="panamanian pop" />
+      <node id="polish trap" label="polish trap" />
+      <node id="polish hip hop" label="polish hip hop" />
+      <node id="hip hop tuga" label="hip hop tuga" />
+      <node id="pop peruano" label="pop peruano" />
+    </nodes>
+    <edges>
+      <edge source="urbano latino" target="urbano chileno" id="0" />
+      <edge source="urbano latino" target="mambo chileno" id="1" />
+      <edge source="urbano latino" target="trap latino" id="2" />
+      <edge source="urbano chileno" target="mambo chileno" id="3" />
+      <edge source="funk rj" target="funk 150 bpm" id="4" />
+      <edge source="latin pop" target="colombian pop" id="5" />
+      <edge source="latin pop" target="latin viral pop" id="6" />
+      <edge source="latin pop" target="reggaeton colombiano" id="7" />
+      <edge source="colombian pop" target="latin viral pop" id="8" />
+      <edge source="colombian pop" target="reggaeton colombiano" id="9" />
+      <edge source="latin viral pop" target="reggaeton colombiano" id="10" />
+      <edge source="pov: indie" target="modern rock" id="11" />
+      <edge source="pov: indie" target="irish singer-songwriter" id="12" />
+      <edge source="modern rock" target="irish singer-songwriter" id="13" />
+      <edge source="rap" target="conscious hip hop" id="14" />
+      <edge source="rap" target="hip hop" id="15" />
+      <edge source="rap" target="west coast rap" id="16" />
+      <edge source="rap" target="afropop" id="17" />
+      <edge source="rap" target="nigerian pop" id="18" />
+      <edge source="rap" target="afrobeats" id="19" />
+      <edge source="rap" target="latin christian" id="20" />
+      <edge source="conscious hip hop" target="hip hop" id="21" />
+      <edge source="conscious hip hop" target="west coast rap" id="22" />
+      <edge source="conscious hip hop" target="afropop" id="23" />
+      <edge source="conscious hip hop" target="nigerian pop" id="24" />
+      <edge source="conscious hip hop" target="afrobeats" id="25" />
+      <edge source="conscious hip hop" target="latin christian" id="26" />
+      <edge source="hip hop" target="west coast rap" id="27" />
+      <edge source="hip hop" target="afropop" id="28" />
+      <edge source="hip hop" target="nigerian pop" id="29" />
+      <edge source="hip hop" target="afrobeats" id="30" />
+      <edge source="hip hop" target="latin christian" id="31" />
+      <edge source="west coast rap" target="afropop" id="32" />
+      <edge source="west coast rap" target="nigerian pop" id="33" />
+      <edge source="west coast rap" target="afrobeats" id="34" />
+      <edge source="west coast rap" target="latin christian" id="35" />
+      <edge source="lithuanian indie" target="lithuanian pop" id="36" />
+      <edge source="afropop" target="nigerian pop" id="37" />
+      <edge source="afropop" target="afrobeats" id="38" />
+      <edge source="afropop" target="latin christian" id="39" />
+      <edge source="nigerian pop" target="afrobeats" id="40" />
+      <edge source="nigerian pop" target="latin christian" id="41" />
+      <edge source="afrobeats" target="latin christian" id="42" />
+      <edge source="canadian country" target="canadian contemporary country" id="43" />
+      <edge source="polish trap" target="polish hip hop" id="44" />
+    </edges>
+  </graph>
+</gexf>
