@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-04-13">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="urbano latino" label="urbano latino" />
+      <node id="urbano chileno" label="urbano chileno" />
+      <node id="mambo chileno" label="mambo chileno" />
+      <node id="funk rj" label="funk rj" />
+      <node id="funk 150 bpm" label="funk 150 bpm" />
+      <node id="reggaeton chileno" label="reggaeton chileno" />
+      <node id="trap chileno" label="trap chileno" />
+      <node id="german drill" label="german drill" />
+      <node id="frauenrap" label="frauenrap" />
+      <node id="german hip hop" label="german hip hop" />
+      <node id="kashmiri pop" label="kashmiri pop" />
+      <node id="pov: indie" label="pov: indie" />
+      <node id="modern rock" label="modern rock" />
+      <node id="irish singer-songwriter" label="irish singer-songwriter" />
+      <node id="israeli mediterranean" label="israeli mediterranean" />
+      <node id="lithuanian pop" label="lithuanian pop" />
+      <node id="lithuanian indie" label="lithuanian indie" />
+      <node id="malay rap" label="malay rap" />
+      <node id="latin christian" label="latin christian" />
+      <node id="norwegian pop rap" label="norwegian pop rap" />
+      <node id="panamanian pop" label="panamanian pop" />
+      <node id="polish trap" label="polish trap" />
+      <node id="polish hip hop" label="polish hip hop" />
+      <node id="hip hop tuga" label="hip hop tuga" />
+      <node id="colombian pop" label="colombian pop" />
+      <node id="latin viral pop" label="latin viral pop" />
+      <node id="latin pop" label="latin pop" />
+      <node id="reggaeton colombiano" label="reggaeton colombiano" />
+      <node id="chinese viral pop" label="chinese viral pop" />
+    </nodes>
+    <edges>
+      <edge source="urbano latino" target="urbano chileno" id="0" />
+      <edge source="urbano latino" target="mambo chileno" id="1" />
+      <edge source="urbano chileno" target="mambo chileno" id="2" />
+      <edge source="urbano chileno" target="reggaeton chileno" id="3" />
+      <edge source="urbano chileno" target="trap chileno" id="4" />
+      <edge source="funk rj" target="funk 150 bpm" id="5" />
+      <edge source="reggaeton chileno" target="trap chileno" id="6" />
+      <edge source="german drill" target="frauenrap" id="7" />
+      <edge source="german drill" target="german hip hop" id="8" />
+      <edge source="frauenrap" target="german hip hop" id="9" />
+      <edge source="pov: indie" target="modern rock" id="10" />
+      <edge source="pov: indie" target="irish singer-songwriter" id="11" />
+      <edge source="modern rock" target="irish singer-songwriter" id="12" />
+      <edge source="lithuanian pop" target="lithuanian indie" id="13" />
+      <edge source="polish trap" target="polish hip hop" id="14" />
+      <edge source="colombian pop" target="latin viral pop" id="15" />
+      <edge source="colombian pop" target="latin pop" id="16" />
+      <edge source="colombian pop" target="reggaeton colombiano" id="17" />
+      <edge source="latin viral pop" target="latin pop" id="18" />
+      <edge source="latin viral pop" target="reggaeton colombiano" id="19" />
+      <edge source="latin pop" target="reggaeton colombiano" id="20" />
+    </edges>
+  </graph>
+</gexf>
