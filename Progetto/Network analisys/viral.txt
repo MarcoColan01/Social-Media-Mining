@@ -4,7 +4,7 @@ Grado medio non pesato: 71.0
 Grado medio pesato: 921.3888888888889 
 Mediana: 989.5 
 Moda: ModeResult(mode=604, count=2) 
-Densitï¿½: 1.0 
+Densità: 1.0 
 Nodo grado massimo: Australia valore: 1227 
 Nodo grado minimo: Turchia valore: 385 
 Arco peso maggiore tra: Argentina e Uruguay con valore: 41 
@@ -18,20 +18,20 @@ Arco peso minore tra: Bielorussia e Spagna con valore: 3
 Arco peso minore tra: Bielorussia e Thailandia con valore: 3 
 Arco peso minore tra: Bielorussia e Giappone con valore: 2 
 Hub: Australia Costa_Rica EAU Honduras
-Il grafo ï¿½ connesso: True
-Transitivitï¿½: 1.0
+Il grafo è connesso: True
+Transitività: 1.0
 Eigenvector massima: Costa_Rica Australia Honduras Canada Panama
 Eigenvector minima: India Bielorussia Thailandia Turchia Giappone
 Closeness massima: Arabia_Saudita 1.0
 Closeness media: 1.0
-Closeness minima: Arabia_Saudita 1.0
------------------------DATA GATHERING 12 APRILE 
+Closeness minima: Arabia_Saudita 1.0---------------------
+--DATA GATHERING 12 APRILE 
 Numero di archi: 2556 
 Grado medio non pesato: 71.0 
 Grado medio pesato: 954.5 
 Mediana: 1032.5 
 Moda: ModeResult(mode=1037, count=2) 
-Densitï¿½: 1.0 
+Densità: 1.0 
 Nodo grado massimo: Canada valore: 1226 
 Nodo grado minimo: Giappone valore: 386 
 Arco peso maggiore tra: Argentina e Uruguay con valore: 40 
@@ -45,20 +45,20 @@ Arco peso minore tra: Thailandia e Turchia con valore: 4
 Arco peso minore tra: Bielorussia e Thailandia con valore: 3 
 Arco peso minore tra: Bielorussia e Giappone con valore: 2 
 Hub: Australia Canada Costa_Rica EAU
-Il grafo ï¿½ connesso: True
-Transitivitï¿½: 1.0
+Il grafo è connesso: True
+Transitività: 1.0
 Eigenvector massima: Costa_Rica Canada Australia EAU Honduras
 Eigenvector minima: Taiwan Turchia India Thailandia Giappone
 Closeness massima: Arabia_Saudita 1.0
 Closeness media: 1.0
-Closeness minima: Arabia_Saudita 1.0
------------------------DATA GATHERING 13 APRILE 
+Closeness minima: Arabia_Saudita 1.0---------------------
+--DATA GATHERING 13 APRILE 
 Numero di archi: 2556 
 Grado medio non pesato: 71.0 
 Grado medio pesato: 954.1388888888889 
 Mediana: 1022.0 
 Moda: ModeResult(mode=1052, count=4) 
-Densitï¿½: 1.0 
+Densità: 1.0 
 Nodo grado massimo: Canada valore: 1227 
 Nodo grado minimo: Giappone valore: 386 
 Arco peso maggiore tra: Argentina e Uruguay con valore: 40 
@@ -72,20 +72,20 @@ Arco peso minore tra: Thailandia e Turchia con valore: 4
 Arco peso minore tra: Bielorussia e Thailandia con valore: 3 
 Arco peso minore tra: Bielorussia e Giappone con valore: 2 
 Hub: Australia Canada EAU Honduras
-Il grafo ï¿½ connesso: True
-Transitivitï¿½: 1.0
+Il grafo è connesso: True
+Transitività: 1.0
 Eigenvector massima: Canada Australia Honduras El_Salvador EAU
 Eigenvector minima: Taiwan India Turchia Thailandia Giappone
 Closeness massima: Arabia_Saudita 1.0
 Closeness media: 1.0
-Closeness minima: Arabia_Saudita 1.0
------------------------DATA GATHERING 14 APRILE 
+Closeness minima: Arabia_Saudita 1.0---------------------
+--DATA GATHERING 14 APRILE 
 Numero di archi: 2556 
 Grado medio non pesato: 71.0 
 Grado medio pesato: 965.4166666666666 
 Mediana: 1037.5 
 Moda: ModeResult(mode=387, count=1) 
-Densitï¿½: 1.0 
+Densità: 1.0 
 Nodo grado massimo: Australia valore: 1229 
 Nodo grado minimo: Giappone valore: 387 
 Arco peso maggiore tra: Argentina e Uruguay con valore: 40 
@@ -99,10 +99,37 @@ Arco peso minore tra: Thailandia e Uruguay con valore: 4
 Arco peso minore tra: Bielorussia e Giappone con valore: 2 
 Arco peso minore tra: Bielorussia e Thailandia con valore: 2 
 Hub: Australia Canada El_Salvador Panama
-Il grafo ï¿½ connesso: True
-Transitivitï¿½: 1.0
+Il grafo è connesso: True
+Transitività: 1.0
 Eigenvector massima: Panama Australia El_Salvador Canada Costa_Rica
 Eigenvector minima: India Turchia Taiwan Thailandia Giappone
+Closeness massima: Arabia_Saudita 1.0
+Closeness media: 1.0
+Closeness minima: Arabia_Saudita 1.0---------------------
+--DATA GATHERING 15 APRILE 
+Numero di archi: 2556 
+Grado medio non pesato: 71.0 
+Grado medio pesato: 974.3333333333334 
+Mediana: 1058.5 
+Moda: ModeResult(mode=770, count=2) 
+Densità: 1.0 
+Nodo grado massimo: Panama valore: 1236 
+Nodo grado minimo: Thailandia valore: 389 
+Arco peso maggiore tra: Argentina e Uruguay con valore: 39 
+Arco peso maggiore tra: Australia e Nuova_Zelanda con valore: 39 
+Arco peso maggiore tra: El_Salvador e Guatemala con valore: 39 
+Arco peso maggiore tra: Honduras e Nicaragua con valore: 39 
+Arco peso maggiore tra: Irlanda e Regno_Unito con valore: 39 
+Arco peso minore tra: Svizzera e Thailandia con valore: 4 
+Arco peso minore tra: Thailandia e Uruguay con valore: 4 
+Arco peso minore tra: Finlandia e Thailandia con valore: 3 
+Arco peso minore tra: Bielorussia e Giappone con valore: 2 
+Arco peso minore tra: Bielorussia e Thailandia con valore: 2 
+Hub: Australia Canada Costa_Rica Panama
+Il grafo è connesso: True
+Transitività: 1.0
+Eigenvector massima: Costa_Rica Panama Canada Australia El_Salvador
+Eigenvector minima: India Taiwan Turchia Giappone Thailandia
 Closeness massima: Arabia_Saudita 1.0
 Closeness media: 1.0
 Closeness minima: Arabia_Saudita 1.0---------------------
