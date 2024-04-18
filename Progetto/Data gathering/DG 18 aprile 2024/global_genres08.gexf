@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-04-18">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="k-pop" label="k-pop" />
+      <node id="trap argentino" label="trap argentino" />
+      <node id="urbano chileno" label="urbano chileno" />
+      <node id="mambo chileno" label="mambo chileno" />
+      <node id="trap triste" label="trap triste" />
+      <node id="urbano latino" label="urbano latino" />
+      <node id="argentine hip hop" label="argentine hip hop" />
+      <node id="irish singer-songwriter" label="irish singer-songwriter" />
+      <node id="modern rock" label="modern rock" />
+      <node id="pov: indie" label="pov: indie" />
+      <node id="turbo folk" label="turbo folk" />
+      <node id="russian hip hop" label="russian hip hop" />
+      <node id="russian trap" label="russian trap" />
+      <node id="pop argentino" label="pop argentino" />
+      <node id="trap latino" label="trap latino" />
+      <node id="funk consciente" label="funk consciente" />
+      <node id="funk bh" label="funk bh" />
+      <node id="funk paulista" label="funk paulista" />
+      <node id="funk mtg" label="funk mtg" />
+      <node id="bulgarian pop" label="bulgarian pop" />
+      <node id="chalga" label="chalga" />
+      <node id="czsk hip hop" label="czsk hip hop" />
+      <node id="czech hip hop" label="czech hip hop" />
+      <node id="reggaeton chileno" label="reggaeton chileno" />
+      <node id="trap chileno" label="trap chileno" />
+      <node id="reggaeton" label="reggaeton" />
+      <node id="pop reggaeton" label="pop reggaeton" />
+      <node id="colombian pop" label="colombian pop" />
+      <node id="reggaeton colombiano" label="reggaeton colombiano" />
+      <node id="afrobeats" label="afrobeats" />
+      <node id="danish pop" label="danish pop" />
+      <node id="mahraganat" label="mahraganat" />
+      <node id="egyptian pop" label="egyptian pop" />
+      <node id="tagalog rap" label="tagalog rap" />
+      <node id="pinoy hip hop" label="pinoy hip hop" />
+      <node id="finnish hip hop" label="finnish hip hop" />
+      <node id="french hip hop" label="french hip hop" />
+      <node id="r&amp;b francais" label="r&amp;b francais" />
+      <node id="rap marseille" label="rap marseille" />
+      <node id="pop urbaine" label="pop urbaine" />
+      <node id="rap francais" label="rap francais" />
+      <node id="j-pop" label="j-pop" />
+      <node id="greek trap" label="greek trap" />
+      <node id="sad sierreno" label="sad sierreno" />
+      <node id="mollywood" label="mollywood" />
+      <node id="modern bollywood" label="modern bollywood" />
+      <node id="desi pop" label="desi pop" />
+      <node id="filmi" label="filmi" />
+      <node id="singer-songwriter pop" label="singer-songwriter pop" />
+      <node id="israeli pop" label="israeli pop" />
+      <node id="israeli mediterranean" label="israeli mediterranean" />
+      <node id="mizrahi" label="mizrahi" />
+      <node id="italian hip hop" label="italian hip hop" />
+      <node id="italian pop" label="italian pop" />
+      <node id="trap italiana" label="trap italiana" />
+      <node id="classic italian pop" label="classic italian pop" />
+      <node id="rap maroc" label="rap maroc" />
+      <node id="corridos tumbados" label="corridos tumbados" />
+      <node id="musica mexicana" label="musica mexicana" />
+      <node id="corrido" label="corrido" />
+      <node id="sierreno" label="sierreno" />
+      <node id="lustrum" label="lustrum" />
+      <node id="kashmiri pop" label="kashmiri pop" />
+      <node id="polish viral pop" label="polish viral pop" />
+      <node id="polish hip hop" label="polish hip hop" />
+      <node id="hip hop tuga" label="hip hop tuga" />
+      <node id="trap brasileiro" label="trap brasileiro" />
+      <node id="manele" label="manele" />
+      <node id="latin hip hop" label="latin hip hop" />
+      <node id="drill espanol" label="drill espanol" />
+      <node id="hip hop" label="hip hop" />
+      <node id="rap" label="rap" />
+      <node id="amapiano" label="amapiano" />
+      <node id="swedish trap pop" label="swedish trap pop" />
+      <node id="swedish hip hop" label="swedish hip hop" />
+      <node id="j-division" label="j-division" />
+      <node id="korean ost" label="korean ost" />
+      <node id="previa" label="previa" />
+      <node id="trap queen" label="trap queen" />
+    </nodes>
+    <edges>
+      <edge source="k-pop" target="trap queen" id="0" />
+      <edge source="trap argentino" target="urbano chileno" id="1" />
+      <edge source="trap argentino" target="mambo chileno" id="2" />
+      <edge source="trap argentino" target="trap triste" id="3" />
+      <edge source="trap argentino" target="urbano latino" id="4" />
+      <edge source="trap argentino" target="argentine hip hop" id="5" />
+      <edge source="trap argentino" target="pop argentino" id="6" />
+      <edge source="trap argentino" target="trap latino" id="7" />
+      <edge source="trap argentino" target="reggaeton" id="8" />
+      <edge source="trap argentino" target="pop reggaeton" id="9" />
+      <edge source="trap argentino" target="colombian pop" id="10" />
+      <edge source="trap argentino" target="reggaeton colombiano" id="11" />
+      <edge source="trap argentino" target="previa" id="12" />
+      <edge source="urbano chileno" target="mambo chileno" id="13" />
+      <edge source="urbano chileno" target="trap triste" id="14" />
+      <edge source="urbano chileno" target="urbano latino" id="15" />
+      <edge source="urbano chileno" target="argentine hip hop" id="16" />
+      <edge source="urbano chileno" target="pop argentino" id="17" />
+      <edge source="urbano chileno" target="trap latino" id="18" />
+      <edge source="urbano chileno" target="reggaeton chileno" id="19" />
+      <edge source="urbano chileno" target="trap chileno" id="20" />
+      <edge source="urbano chileno" target="reggaeton" id="21" />
+      <edge source="urbano chileno" target="pop reggaeton" id="22" />
+      <edge source="urbano chileno" target="colombian pop" id="23" />
+      <edge source="urbano chileno" target="afrobeats" id="24" />
+      <edge source="urbano chileno" target="reggaeton colombiano" id="25" />
+      <edge source="urbano chileno" target="sad sierreno" id="26" />
+      <edge source="urbano chileno" target="latin hip hop" id="27" />
+      <edge source="urbano chileno" target="drill espanol" id="28" />
+      <edge source="mambo chileno" target="trap triste" id="29" />
+      <edge source="mambo chileno" target="urbano latino" id="30" />
+      <edge source="mambo chileno" target="argentine hip hop" id="31" />
+      <edge source="mambo chileno" target="pop argentino" id="32" />
+      <edge source="mambo chileno" target="trap latino" id="33" />
+      <edge source="mambo chileno" target="reggaeton" id="34" />
+      <edge source="mambo chileno" target="pop reggaeton" id="35" />
+      <edge source="mambo chileno" target="colombian pop" id="36" />
+      <edge source="mambo chileno" target="afrobeats" id="37" />
+      <edge source="mambo chileno" target="reggaeton colombiano" id="38" />
+      <edge source="mambo chileno" target="sad sierreno" id="39" />
+      <edge source="mambo chileno" target="latin hip hop" id="40" />
+      <edge source="mambo chileno" target="drill espanol" id="41" />
+      <edge source="trap triste" target="urbano latino" id="42" />
+      <edge source="trap triste" target="argentine hip hop" id="43" />
+      <edge source="trap triste" target="previa" id="44" />
+      <edge source="urbano latino" target="argentine hip hop" id="45" />
+      <edge source="urbano latino" target="pop argentino" id="46" />
+      <edge source="urbano latino" target="trap latino" id="47" />
+      <edge source="urbano latino" target="reggaeton" id="48" />
+      <edge source="urbano latino" target="pop reggaeton" id="49" />
+      <edge source="urbano latino" target="colombian pop" id="50" />
+      <edge source="urbano latino" target="reggaeton colombiano" id="51" />
+      <edge source="urbano latino" target="afrobeats" id="52" />
+      <edge source="urbano latino" target="sad sierreno" id="53" />
+      <edge source="urbano latino" target="trap chileno" id="54" />
+      <edge source="urbano latino" target="latin hip hop" id="55" />
+      <edge source="urbano latino" target="drill espanol" id="56" />
+      <edge source="argentine hip hop" target="previa" id="57" />
+      <edge source="irish singer-songwriter" target="modern rock" id="58" />
+      <edge source="irish singer-songwriter" target="pov: indie" id="59" />
+      <edge source="irish singer-songwriter" target="hip hop" id="60" />
+      <edge source="irish singer-songwriter" target="rap" id="61" />
+      <edge source="modern rock" target="pov: indie" id="62" />
+      <edge source="modern rock" target="hip hop" id="63" />
+      <edge source="modern rock" target="rap" id="64" />
+      <edge source="pov: indie" target="hip hop" id="65" />
+      <edge source="pov: indie" target="rap" id="66" />
+      <edge source="russian hip hop" target="russian trap" id="67" />
+      <edge source="pop argentino" target="trap latino" id="68" />
+      <edge source="trap latino" target="reggaeton" id="69" />
+      <edge source="trap latino" target="pop reggaeton" id="70" />
+      <edge source="trap latino" target="colombian pop" id="71" />
+      <edge source="trap latino" target="reggaeton colombiano" id="72" />
+      <edge source="trap latino" target="afrobeats" id="73" />
+      <edge source="trap latino" target="latin hip hop" id="74" />
+      <edge source="trap latino" target="drill espanol" id="75" />
+      <edge source="funk consciente" target="funk bh" id="76" />
+      <edge source="funk consciente" target="funk paulista" id="77" />
+      <edge source="funk consciente" target="funk mtg" id="78" />
+      <edge source="funk bh" target="funk paulista" id="79" />
+      <edge source="funk bh" target="funk mtg" id="80" />
+      <edge source="funk paulista" target="funk mtg" id="81" />
+      <edge source="bulgarian pop" target="chalga" id="82" />
+      <edge source="czsk hip hop" target="czech hip hop" id="83" />
+      <edge source="reggaeton chileno" target="trap chileno" id="84" />
+      <edge source="reggaeton" target="pop reggaeton" id="85" />
+      <edge source="reggaeton" target="colombian pop" id="86" />
+      <edge source="reggaeton" target="reggaeton colombiano" id="87" />
+      <edge source="reggaeton" target="afrobeats" id="88" />
+      <edge source="reggaeton" target="latin hip hop" id="89" />
+      <edge source="reggaeton" target="drill espanol" id="90" />
+      <edge source="pop reggaeton" target="colombian pop" id="91" />
+      <edge source="pop reggaeton" target="reggaeton colombiano" id="92" />
+      <edge source="pop reggaeton" target="afrobeats" id="93" />
+      <edge source="colombian pop" target="reggaeton colombiano" id="94" />
+      <edge source="colombian pop" target="afrobeats" id="95" />
+      <edge source="reggaeton colombiano" target="afrobeats" id="96" />
+      <edge source="mahraganat" target="egyptian pop" id="97" />
+      <edge source="tagalog rap" target="pinoy hip hop" id="98" />
+      <edge source="french hip hop" target="r&amp;b francais" id="99" />
+      <edge source="french hip hop" target="rap marseille" id="100" />
+      <edge source="french hip hop" target="pop urbaine" id="101" />
+      <edge source="french hip hop" target="rap francais" id="102" />
+      <edge source="r&amp;b francais" target="rap marseille" id="103" />
+      <edge source="r&amp;b francais" target="pop urbaine" id="104" />
+      <edge source="r&amp;b francais" target="rap francais" id="105" />
+      <edge source="rap marseille" target="pop urbaine" id="106" />
+      <edge source="rap marseille" target="rap francais" id="107" />
+      <edge source="pop urbaine" target="rap francais" id="108" />
+      <edge source="sad sierreno" target="corridos tumbados" id="109" />
+      <edge source="sad sierreno" target="musica mexicana" id="110" />
+      <edge source="sad sierreno" target="corrido" id="111" />
+      <edge source="sad sierreno" target="sierreno" id="112" />
+      <edge source="mollywood" target="modern bollywood" id="113" />
+      <edge source="mollywood" target="desi pop" id="114" />
+      <edge source="mollywood" target="filmi" id="115" />
+      <edge source="modern bollywood" target="desi pop" id="116" />
+      <edge source="modern bollywood" target="filmi" id="117" />
+      <edge source="desi pop" target="filmi" id="118" />
+      <edge source="israeli pop" target="israeli mediterranean" id="119" />
+      <edge source="israeli pop" target="mizrahi" id="120" />
+      <edge source="israeli mediterranean" target="mizrahi" id="121" />
+      <edge source="italian hip hop" target="italian pop" id="122" />
+      <edge source="italian hip hop" target="trap italiana" id="123" />
+      <edge source="italian pop" target="trap italiana" id="124" />
+      <edge source="corridos tumbados" target="musica mexicana" id="125" />
+      <edge source="corridos tumbados" target="corrido" id="126" />
+      <edge source="corridos tumbados" target="sierreno" id="127" />
+      <edge source="musica mexicana" target="corrido" id="128" />
+      <edge source="musica mexicana" target="sierreno" id="129" />
+      <edge source="corrido" target="sierreno" id="130" />
+      <edge source="polish viral pop" target="polish hip hop" id="131" />
+      <edge source="hip hop tuga" target="trap brasileiro" id="132" />
+      <edge source="latin hip hop" target="drill espanol" id="133" />
+      <edge source="hip hop" target="rap" id="134" />
+      <edge source="swedish trap pop" target="swedish hip hop" id="135" />
+      <edge source="j-division" target="korean ost" id="136" />
+    </edges>
+  </graph>
+</gexf>
