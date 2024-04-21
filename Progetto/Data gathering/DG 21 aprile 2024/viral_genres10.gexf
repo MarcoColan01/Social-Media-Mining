@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-04-21">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="kashmiri pop" label="kashmiri pop" />
+      <node id="reggaeton chileno" label="reggaeton chileno" />
+      <node id="pop argentino" label="pop argentino" />
+      <node id="mambo chileno" label="mambo chileno" />
+      <node id="urbano latino" label="urbano latino" />
+      <node id="urbano chileno" label="urbano chileno" />
+      <node id="r&amp;b en espanol" label="r&amp;b en espanol" />
+      <node id="trap latino" label="trap latino" />
+      <node id="reggaeton" label="reggaeton" />
+      <node id="trap chileno" label="trap chileno" />
+      <node id="egyptian trap" label="egyptian trap" />
+      <node id="reggaeton flow" label="reggaeton flow" />
+      <node id="trap argentino" label="trap argentino" />
+      <node id="modern bollywood" label="modern bollywood" />
+      <node id="filmi" label="filmi" />
+      <node id="classic italian pop" label="classic italian pop" />
+      <node id="gujarati pop" label="gujarati pop" />
+      <node id="panamanian pop" label="panamanian pop" />
+      <node id="polish hip hop" label="polish hip hop" />
+      <node id="polish viral pop" label="polish viral pop" />
+      <node id="argentine indie" label="argentine indie" />
+      <node id="rap underground argentino" label="rap underground argentino" />
+      <node id="viet chill rap" label="viet chill rap" />
+    </nodes>
+    <edges>
+      <edge source="kashmiri pop" target="modern bollywood" id="0" />
+      <edge source="kashmiri pop" target="filmi" id="1" />
+      <edge source="kashmiri pop" target="gujarati pop" id="2" />
+      <edge source="mambo chileno" target="urbano latino" id="3" />
+      <edge source="mambo chileno" target="urbano chileno" id="4" />
+      <edge source="urbano latino" target="urbano chileno" id="5" />
+      <edge source="urbano latino" target="r&amp;b en espanol" id="6" />
+      <edge source="urbano latino" target="trap latino" id="7" />
+      <edge source="urbano latino" target="reggaeton" id="8" />
+      <edge source="urbano latino" target="reggaeton flow" id="9" />
+      <edge source="urbano latino" target="trap argentino" id="10" />
+      <edge source="urbano latino" target="panamanian pop" id="11" />
+      <edge source="urbano latino" target="argentine indie" id="12" />
+      <edge source="urbano latino" target="rap underground argentino" id="13" />
+      <edge source="r&amp;b en espanol" target="trap latino" id="14" />
+      <edge source="r&amp;b en espanol" target="reggaeton" id="15" />
+      <edge source="trap latino" target="reggaeton" id="16" />
+      <edge source="trap latino" target="trap argentino" id="17" />
+      <edge source="trap latino" target="panamanian pop" id="18" />
+      <edge source="trap latino" target="reggaeton flow" id="19" />
+      <edge source="trap latino" target="argentine indie" id="20" />
+      <edge source="trap latino" target="rap underground argentino" id="21" />
+      <edge source="reggaeton" target="reggaeton flow" id="22" />
+      <edge source="reggaeton" target="trap argentino" id="23" />
+      <edge source="reggaeton" target="panamanian pop" id="24" />
+      <edge source="reggaeton" target="argentine indie" id="25" />
+      <edge source="reggaeton" target="rap underground argentino" id="26" />
+      <edge source="reggaeton flow" target="argentine indie" id="27" />
+      <edge source="reggaeton flow" target="rap underground argentino" id="28" />
+      <edge source="modern bollywood" target="filmi" id="29" />
+      <edge source="polish hip hop" target="polish viral pop" id="30" />
+      <edge source="argentine indie" target="rap underground argentino" id="31" />
+    </edges>
+  </graph>
+</gexf>
