@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-04-20">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="kashmiri pop" label="kashmiri pop" />
+      <node id="reggaeton chileno" label="reggaeton chileno" />
+      <node id="reggaeton" label="reggaeton" />
+      <node id="urbano latino" label="urbano latino" />
+      <node id="trap latino" label="trap latino" />
+      <node id="mambo chileno" label="mambo chileno" />
+      <node id="urbano chileno" label="urbano chileno" />
+      <node id="latin hip hop" label="latin hip hop" />
+      <node id="egyptian trap" label="egyptian trap" />
+      <node id="mahraganat" label="mahraganat" />
+      <node id="r&amp;b en espanol" label="r&amp;b en espanol" />
+      <node id="classic italian pop" label="classic italian pop" />
+      <node id="reggaeton flow" label="reggaeton flow" />
+      <node id="modern bollywood" label="modern bollywood" />
+      <node id="filmi" label="filmi" />
+      <node id="trap argentino" label="trap argentino" />
+      <node id="panamanian pop" label="panamanian pop" />
+      <node id="polish viral pop" label="polish viral pop" />
+      <node id="polish hip hop" label="polish hip hop" />
+      <node id="trap boricua" label="trap boricua" />
+      <node id="viet chill rap" label="viet chill rap" />
+    </nodes>
+    <edges>
+      <edge source="kashmiri pop" target="modern bollywood" id="0" />
+      <edge source="kashmiri pop" target="filmi" id="1" />
+      <edge source="reggaeton" target="urbano latino" id="2" />
+      <edge source="reggaeton" target="trap latino" id="3" />
+      <edge source="reggaeton" target="latin hip hop" id="4" />
+      <edge source="reggaeton" target="r&amp;b en espanol" id="5" />
+      <edge source="reggaeton" target="reggaeton flow" id="6" />
+      <edge source="reggaeton" target="trap argentino" id="7" />
+      <edge source="reggaeton" target="trap boricua" id="8" />
+      <edge source="urbano latino" target="trap latino" id="9" />
+      <edge source="urbano latino" target="mambo chileno" id="10" />
+      <edge source="urbano latino" target="urbano chileno" id="11" />
+      <edge source="urbano latino" target="latin hip hop" id="12" />
+      <edge source="urbano latino" target="r&amp;b en espanol" id="13" />
+      <edge source="urbano latino" target="reggaeton flow" id="14" />
+      <edge source="urbano latino" target="trap argentino" id="15" />
+      <edge source="urbano latino" target="trap boricua" id="16" />
+      <edge source="trap latino" target="latin hip hop" id="17" />
+      <edge source="trap latino" target="r&amp;b en espanol" id="18" />
+      <edge source="trap latino" target="trap argentino" id="19" />
+      <edge source="trap latino" target="reggaeton flow" id="20" />
+      <edge source="trap latino" target="trap boricua" id="21" />
+      <edge source="mambo chileno" target="urbano chileno" id="22" />
+      <edge source="egyptian trap" target="mahraganat" id="23" />
+      <edge source="r&amp;b en espanol" target="reggaeton flow" id="24" />
+      <edge source="r&amp;b en espanol" target="trap boricua" id="25" />
+      <edge source="reggaeton flow" target="trap boricua" id="26" />
+      <edge source="modern bollywood" target="filmi" id="27" />
+      <edge source="polish viral pop" target="polish hip hop" id="28" />
+    </edges>
+  </graph>
+</gexf>

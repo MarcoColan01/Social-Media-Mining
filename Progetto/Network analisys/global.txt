@@ -1,0 +1,243 @@
+--DATA GATHERING 11 APRILE 
+Numero di archi: 1856 
+Grado medio non pesato: 51.55555555555556 
+Grado medio pesato: 368.77777777777777 
+Mediana: 369.0 
+Moda: ModeResult(mode=28, count=2) 
+Densità: 0.7261345852895149 
+Nodo grado massimo: Svizzera valore: 739 
+Nodo grado minimo: Egitto valore: 2 
+Arco peso maggiore tra: Argentina e Uruguay con valore: 39 
+Arco peso maggiore tra: Australia e Canada con valore: 38 
+Arco peso maggiore tra: Canada e Stati_Uniti con valore: 38 
+Arco peso maggiore tra: El_Salvador e Honduras con valore: 38 
+Arco peso maggiore tra: Irlanda e Regno_Unito con valore: 38 
+Arco peso minore tra: Svizzera e Uruguay con valore: 1 
+Arco peso minore tra: Svizzera e Vietnam con valore: 1 
+Arco peso minore tra: Turchia e Ungheria con valore: 1 
+Arco peso minore tra: Ucraina e Venezuela con valore: 1 
+Arco peso minore tra: Ungheria e Venezuela con valore: 1 
+Hub: Australia Lussemburgo Regno_Unito Svizzera
+Il grafo è connesso: True
+Transitività: 0.8771646495699887
+Eigenvector massima: Svizzera Regno_Unito Australia Lussemburgo Austria
+Eigenvector minima: Nigeria Giappone India Pakistan Egitto
+Closeness massima: EAU 0.9861111111111112
+Closeness media: 0.8039310663495614
+Closeness minima: Egitto 0.47333333333333333---------------------
+--DATA GATHERING 12 APRILE 
+Numero di archi: 1887 
+Grado medio non pesato: 52.416666666666664 
+Grado medio pesato: 369.69444444444446 
+Mediana: 381.0 
+Moda: ModeResult(mode=367, count=2) 
+Densità: 0.7382629107981221 
+Nodo grado massimo: Svizzera valore: 735 
+Nodo grado minimo: Egitto valore: 2 
+Arco peso maggiore tra: El_Salvador e Honduras con valore: 40 
+Arco peso maggiore tra: Canada e Stati_Uniti con valore: 39 
+Arco peso maggiore tra: Irlanda e Regno_Unito con valore: 39 
+Arco peso maggiore tra: Argentina e Uruguay con valore: 38 
+Arco peso maggiore tra: Australia e Canada con valore: 37 
+Arco peso minore tra: Svizzera e Vietnam con valore: 1 
+Arco peso minore tra: Taiwan e Venezuela con valore: 1 
+Arco peso minore tra: Turchia e Ungheria con valore: 1 
+Arco peso minore tra: Ungheria e Uruguay con valore: 1 
+Arco peso minore tra: Ungheria e Venezuela con valore: 1 
+Hub: Australia Austria Lussemburgo Svizzera
+Il grafo è connesso: True
+Transitività: 0.8778922862902081
+Eigenvector massima: Svizzera Austria Australia Lussemburgo Regno_Unito
+Eigenvector minima: Nigeria Giappone India Pakistan Egitto
+Closeness massima: EAU 0.9861111111111112
+Closeness media: 0.8112035836964826
+Closeness minima: Egitto 0.47651006711409394---------------------
+--DATA GATHERING 13 APRILE 
+Numero di archi: 1829 
+Grado medio non pesato: 50.80555555555556 
+Grado medio pesato: 344.47222222222223 
+Mediana: 364.5 
+Moda: ModeResult(mode=2, count=2) 
+Densità: 0.7155712050078247 
+Nodo grado massimo: Svizzera valore: 673 
+Nodo grado minimo: Egitto valore: 2 
+Arco peso maggiore tra: Canada e Stati_Uniti con valore: 42 
+Arco peso maggiore tra: Argentina e Uruguay con valore: 40 
+Arco peso maggiore tra: Austria e Svizzera con valore: 39 
+Arco peso maggiore tra: Irlanda e Regno_Unito con valore: 39 
+Arco peso maggiore tra: El_Salvador e Honduras con valore: 38 
+Arco peso minore tra: Turchia e Ungheria con valore: 1 
+Arco peso minore tra: Turchia e Venezuela con valore: 1 
+Arco peso minore tra: Ucraina e Venezuela con valore: 1 
+Arco peso minore tra: Ungheria e Uruguay con valore: 1 
+Arco peso minore tra: Venezuela e Vietnam con valore: 1 
+Hub: Australia Belgio Lussemburgo Svizzera
+Il grafo è connesso: True
+Transitività: 0.8828234174768829
+Eigenvector massima: Svizzera Lussemburgo Australia Belgio Canada
+Eigenvector minima: Giappone India Pakistan Egitto Nigeria
+Closeness massima: EAU 0.9726027397260274
+Closeness media: 0.7963763075788867
+Closeness minima: Nigeria 0.45806451612903226---------------------
+--DATA GATHERING 14 APRILE 
+Numero di archi: 1796 
+Grado medio non pesato: 49.888888888888886 
+Grado medio pesato: 337.8611111111111 
+Mediana: 364.0 
+Moda: ModeResult(mode=2, count=2) 
+Densità: 0.702660406885759 
+Nodo grado massimo: Svizzera valore: 672 
+Nodo grado minimo: Egitto valore: 2 
+Arco peso maggiore tra: Canada e Stati_Uniti con valore: 41 
+Arco peso maggiore tra: Argentina e Uruguay con valore: 39 
+Arco peso maggiore tra: El_Salvador e Honduras con valore: 39 
+Arco peso maggiore tra: Lussemburgo e Svizzera con valore: 39 
+Arco peso maggiore tra: Irlanda e Regno_Unito con valore: 38 
+Arco peso minore tra: Svizzera e Vietnam con valore: 1 
+Arco peso minore tra: Taiwan e Venezuela con valore: 1 
+Arco peso minore tra: Turchia e Ungheria con valore: 1 
+Arco peso minore tra: Ungheria e Uruguay con valore: 1 
+Arco peso minore tra: Ungheria e Venezuela con valore: 1 
+Hub: Australia Canada Lussemburgo Svizzera
+Il grafo è connesso: True
+Transitività: 0.8844477928001303
+Eigenvector massima: Svizzera Lussemburgo Australia Canada Regno_Unito
+Eigenvector minima: Brasile India Pakistan Egitto Nigeria
+Closeness massima: EAU 0.9594594594594594
+Closeness media: 0.7882314279097506
+Closeness minima: Nigeria 0.44936708860759494---------------------
+--DATA GATHERING 15 APRILE 
+Numero di archi: 1865 
+Grado medio non pesato: 51.80555555555556 
+Grado medio pesato: 350.75 
+Mediana: 372.5 
+Moda: ModeResult(mode=2, count=2) 
+Densità: 0.7296557120500783 
+Nodo grado massimo: Svizzera valore: 683 
+Nodo grado minimo: Egitto valore: 2 
+Arco peso maggiore tra: Canada e Stati_Uniti con valore: 40 
+Arco peso maggiore tra: Argentina e Uruguay con valore: 39 
+Arco peso maggiore tra: El_Salvador e Honduras con valore: 39 
+Arco peso maggiore tra: Austria e Germania con valore: 38 
+Arco peso maggiore tra: Lussemburgo e Svizzera con valore: 38 
+Arco peso minore tra: Taiwan e Venezuela con valore: 1 
+Arco peso minore tra: Turchia e Ungheria con valore: 1 
+Arco peso minore tra: Turchia e Venezuela con valore: 1 
+Arco peso minore tra: Ucraina e Venezuela con valore: 1 
+Arco peso minore tra: Ungheria e Uruguay con valore: 1 
+Hub: Australia Canada Lussemburgo Svizzera
+Il grafo è connesso: True
+Transitività: 0.9012316347670728
+Eigenvector massima: Svizzera Australia Regno_Unito Canada Lussemburgo
+Eigenvector minima: Brasile India Pakistan Egitto Nigeria
+Closeness massima: EAU 0.9594594594594594
+Closeness media: 0.806540100367267
+Closeness minima: Nigeria 0.461038961038961---------------------
+--DATA GATHERING 16 APRILE 
+Numero di archi: 2059 
+Grado medio non pesato: 57.19444444444444 
+Grado medio pesato: 389.5833333333333 
+Mediana: 418.5 
+Moda: ModeResult(mode=440, count=4) 
+Densità: 0.8055555555555556 
+Nodo grado massimo: Lussemburgo valore: 734 
+Nodo grado minimo: Egitto valore: 2 
+Arco peso maggiore tra: Canada e Stati_Uniti con valore: 42 
+Arco peso maggiore tra: El_Salvador e Honduras con valore: 42 
+Arco peso maggiore tra: Argentina e Uruguay con valore: 40 
+Arco peso maggiore tra: Honduras e Nicaragua con valore: 38 
+Arco peso maggiore tra: Irlanda e Regno_Unito con valore: 38 
+Arco peso minore tra: Taiwan e Venezuela con valore: 1 
+Arco peso minore tra: Turchia e Ungheria con valore: 1 
+Arco peso minore tra: Turchia e Venezuela con valore: 1 
+Arco peso minore tra: Ucraina e Venezuela con valore: 1 
+Arco peso minore tra: Ungheria e Uruguay con valore: 1 
+Hub: Australia Canada Lussemburgo Stati_Uniti Svizzera
+Il grafo è connesso: True
+Transitività: 0.9283966516419833
+Eigenvector massima: Lussemburgo Svizzera Australia Canada Austria
+Eigenvector minima: Bielorussia Giappone India Egitto Nigeria
+Closeness massima: Arabia_Saudita 0.9726027397260274
+Closeness media: 0.8559372889360422
+Closeness minima: Nigeria 0.47651006711409394---------------------
+--DATA GATHERING 17 APRILE 
+Numero di archi: 2065 
+Grado medio non pesato: 57.361111111111114 
+Grado medio pesato: 393.75 
+Mediana: 421.0 
+Moda: ModeResult(mode=2, count=2) 
+Densità: 0.8079029733959311 
+Nodo grado massimo: Svizzera valore: 744 
+Nodo grado minimo: Egitto valore: 2 
+Arco peso maggiore tra: Canada e Stati_Uniti con valore: 42 
+Arco peso maggiore tra: Argentina e Uruguay con valore: 40 
+Arco peso maggiore tra: El_Salvador e Honduras con valore: 39 
+Arco peso maggiore tra: Belgio e Lussemburgo con valore: 38 
+Arco peso maggiore tra: Belgio e Svizzera con valore: 38 
+Arco peso minore tra: Taiwan e Venezuela con valore: 1 
+Arco peso minore tra: Turchia e Ungheria con valore: 1 
+Arco peso minore tra: Turchia e Venezuela con valore: 1 
+Arco peso minore tra: Ucraina e Venezuela con valore: 1 
+Arco peso minore tra: Ungheria e Uruguay con valore: 1 
+Hub: Belgio Canada Lussemburgo Svizzera
+Il grafo è connesso: True
+Transitività: 0.9296637309847878
+Eigenvector massima: Svizzera Lussemburgo Australia Belgio Austria
+Eigenvector minima: Giappone Bielorussia India Egitto Nigeria
+Closeness massima: Arabia_Saudita 0.9726027397260274
+Closeness media: 0.8575732439511595
+Closeness minima: Nigeria 0.47651006711409394---------------------
+--DATA GATHERING 18 APRILE 
+Numero di archi: 2058 
+Grado medio non pesato: 57.166666666666664 
+Grado medio pesato: 396.02777777777777 
+Mediana: 419.0 
+Moda: ModeResult(mode=2, count=2) 
+Densità: 0.8051643192488263 
+Nodo grado massimo: Svizzera valore: 766 
+Nodo grado minimo: Egitto valore: 2 
+Arco peso maggiore tra: Canada e Stati_Uniti con valore: 43 
+Arco peso maggiore tra: El_Salvador e Honduras con valore: 41 
+Arco peso maggiore tra: Argentina e Uruguay con valore: 39 
+Arco peso maggiore tra: Belgio e Svizzera con valore: 39 
+Arco peso maggiore tra: Irlanda e Regno_Unito con valore: 39 
+Arco peso minore tra: Taiwan e Venezuela con valore: 1 
+Arco peso minore tra: Turchia e Ungheria con valore: 1 
+Arco peso minore tra: Turchia e Venezuela con valore: 1 
+Arco peso minore tra: Ucraina e Venezuela con valore: 1 
+Arco peso minore tra: Ungheria e Uruguay con valore: 1 
+Hub: Austria Canada Lussemburgo Svizzera
+Il grafo è connesso: True
+Transitività: 0.9270630148469363
+Eigenvector massima: Svizzera Austria Lussemburgo Australia Belgio
+Eigenvector minima: Giappone Bielorussia India Egitto Nigeria
+Closeness massima: Arabia_Saudita 0.9726027397260274
+Closeness media: 0.8554764796997634
+Closeness minima: Nigeria 0.47651006711409394---------------------
+--DATA GATHERING 19 APRILE 
+Numero di archi: 2345 
+Grado medio non pesato: 65.13888888888889 
+Grado medio pesato: 795.4166666666666 
+Mediana: 902.5 
+Moda: ModeResult(mode=1033, count=2) 
+Densità: 0.9174491392801252 
+Nodo grado massimo: EAU valore: 1250 
+Nodo grado minimo: Nigeria valore: 2 
+Arco peso maggiore tra: Australia e Regno_Unito con valore: 47 
+Arco peso maggiore tra: Australia e Canada con valore: 46 
+Arco peso maggiore tra: Australia e Irlanda con valore: 46 
+Arco peso maggiore tra: Canada e Stati_Uniti con valore: 46 
+Arco peso maggiore tra: Irlanda e Regno_Unito con valore: 46 
+Arco peso minore tra: Thailandia e Ucraina con valore: 1 
+Arco peso minore tra: Turchia e Ungheria con valore: 1 
+Arco peso minore tra: Ucraina e Uruguay con valore: 1 
+Arco peso minore tra: Ucraina e Venezuela con valore: 1 
+Arco peso minore tra: Ucraina e Vietnam con valore: 1 
+Hub: Australia EAU Estonia Svizzera
+Il grafo è connesso: True
+Transitività: 0.9814894532931554
+Eigenvector massima: Australia Estonia Regno_Unito EAU Irlanda
+Eigenvector minima: Egitto Turchia Giappone Bielorussia Nigeria
+Closeness massima: Arabia_Saudita 0.9861111111111112
+Closeness media: 0.9372904838288546
+Closeness minima: Nigeria 0.4965034965034965---------------------

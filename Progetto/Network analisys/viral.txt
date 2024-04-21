@@ -214,3 +214,30 @@ Eigenvector minima: Taiwan Turchia Indonesia Thailandia Giappone
 Closeness massima: Arabia_Saudita 1.0
 Closeness media: 1.0
 Closeness minima: Arabia_Saudita 1.0---------------------
+--DATA GATHERING 19 APRILE 
+Numero di archi: 2556 
+Grado medio non pesato: 71.0 
+Grado medio pesato: 1029.9444444444443 
+Mediana: 1091.0 
+Moda: ModeResult(mode=972, count=2) 
+Densità: 1.0 
+Nodo grado massimo: Panama valore: 1322 
+Nodo grado minimo: Giappone valore: 578 
+Arco peso maggiore tra: El_Salvador e Guatemala con valore: 42 
+Arco peso maggiore tra: El_Salvador e Honduras con valore: 42 
+Arco peso maggiore tra: El_Salvador e Nicaragua con valore: 41 
+Arco peso maggiore tra: Argentina e Uruguay con valore: 40 
+Arco peso maggiore tra: Costa_Rica e Panama con valore: 40 
+Arco peso minore tra: Nigeria e Thailandia con valore: 5 
+Arco peso minore tra: Nigeria e Turchia con valore: 5 
+Arco peso minore tra: Giappone e Nigeria con valore: 4 
+Arco peso minore tra: Indonesia e Nigeria con valore: 4 
+Arco peso minore tra: Nigeria e Taiwan con valore: 4 
+Hub: Australia Canada Costa_Rica Panama
+Il grafo è connesso: True
+Transitività: 1.0
+Eigenvector massima: Panama Canada Costa_Rica Australia Nuova_Zelanda
+Eigenvector minima: Taiwan Indonesia Thailandia Turchia Giappone
+Closeness massima: Arabia_Saudita 1.0
+Closeness media: 1.0
+Closeness minima: Arabia_Saudita 1.0---------------------
