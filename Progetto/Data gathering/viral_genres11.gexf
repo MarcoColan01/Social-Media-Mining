@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-04-22">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="kashmiri pop" label="kashmiri pop" />
+      <node id="reggaeton chileno" label="reggaeton chileno" />
+      <node id="pop argentino" label="pop argentino" />
+      <node id="mambo chileno" label="mambo chileno" />
+      <node id="urbano latino" label="urbano latino" />
+      <node id="urbano chileno" label="urbano chileno" />
+      <node id="reggaeton" label="reggaeton" />
+      <node id="trap latino" label="trap latino" />
+      <node id="trap chileno" label="trap chileno" />
+      <node id="egyptian trap" label="egyptian trap" />
+      <node id="latin hip hop" label="latin hip hop" />
+      <node id="r&amp;b en espanol" label="r&amp;b en espanol" />
+      <node id="modern bollywood" label="modern bollywood" />
+      <node id="filmi" label="filmi" />
+      <node id="gujarati pop" label="gujarati pop" />
+      <node id="panamanian pop" label="panamanian pop" />
+      <node id="trap boricua" label="trap boricua" />
+      <node id="reggaeton flow" label="reggaeton flow" />
+      <node id="polish hip hop" label="polish hip hop" />
+      <node id="polish viral pop" label="polish viral pop" />
+      <node id="classic italian pop" label="classic italian pop" />
+      <node id="rap underground argentino" label="rap underground argentino" />
+      <node id="argentine indie" label="argentine indie" />
+      <node id="viet chill rap" label="viet chill rap" />
+    </nodes>
+    <edges>
+      <edge source="kashmiri pop" target="modern bollywood" id="0" />
+      <edge source="kashmiri pop" target="filmi" id="1" />
+      <edge source="kashmiri pop" target="gujarati pop" id="2" />
+      <edge source="mambo chileno" target="urbano latino" id="3" />
+      <edge source="mambo chileno" target="urbano chileno" id="4" />
+      <edge source="urbano latino" target="urbano chileno" id="5" />
+      <edge source="urbano latino" target="reggaeton" id="6" />
+      <edge source="urbano latino" target="trap latino" id="7" />
+      <edge source="urbano latino" target="latin hip hop" id="8" />
+      <edge source="urbano latino" target="r&amp;b en espanol" id="9" />
+      <edge source="urbano latino" target="trap boricua" id="10" />
+      <edge source="urbano latino" target="reggaeton flow" id="11" />
+      <edge source="urbano latino" target="rap underground argentino" id="12" />
+      <edge source="urbano latino" target="argentine indie" id="13" />
+      <edge source="reggaeton" target="trap latino" id="14" />
+      <edge source="reggaeton" target="latin hip hop" id="15" />
+      <edge source="reggaeton" target="r&amp;b en espanol" id="16" />
+      <edge source="reggaeton" target="trap boricua" id="17" />
+      <edge source="reggaeton" target="reggaeton flow" id="18" />
+      <edge source="reggaeton" target="rap underground argentino" id="19" />
+      <edge source="reggaeton" target="argentine indie" id="20" />
+      <edge source="trap latino" target="latin hip hop" id="21" />
+      <edge source="trap latino" target="r&amp;b en espanol" id="22" />
+      <edge source="trap latino" target="trap boricua" id="23" />
+      <edge source="trap latino" target="reggaeton flow" id="24" />
+      <edge source="trap latino" target="rap underground argentino" id="25" />
+      <edge source="trap latino" target="argentine indie" id="26" />
+      <edge source="latin hip hop" target="rap underground argentino" id="27" />
+      <edge source="latin hip hop" target="argentine indie" id="28" />
+      <edge source="modern bollywood" target="filmi" id="29" />
+      <edge source="trap boricua" target="reggaeton flow" id="30" />
+      <edge source="polish hip hop" target="polish viral pop" id="31" />
+      <edge source="rap underground argentino" target="argentine indie" id="32" />
+    </edges>
+  </graph>
+</gexf>

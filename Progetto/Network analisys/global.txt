@@ -23,7 +23,7 @@ Transitività: 0.8771646495699887
 Eigenvector massima: Svizzera Regno_Unito Australia Lussemburgo Austria
 Eigenvector minima: Nigeria Giappone India Pakistan Egitto
 Closeness massima: EAU 0.9861111111111112
-Closeness media: 0.8039310663495612
+Closeness media: 0.8039310663495614
 Closeness minima: Egitto 0.47333333333333333---------------------
 --DATA GATHERING 12 APRILE 
 Numero di archi: 1887 
@@ -77,7 +77,7 @@ Transitività: 0.8828234174768829
 Eigenvector massima: Svizzera Lussemburgo Australia Belgio Canada
 Eigenvector minima: Giappone India Pakistan Egitto Nigeria
 Closeness massima: EAU 0.9726027397260274
-Closeness media: 0.7963763075788868
+Closeness media: 0.7963763075788867
 Closeness minima: Nigeria 0.45806451612903226---------------------
 --DATA GATHERING 14 APRILE 
 Numero di archi: 1796 
@@ -104,7 +104,7 @@ Transitività: 0.8844477928001303
 Eigenvector massima: Svizzera Lussemburgo Australia Canada Regno_Unito
 Eigenvector minima: Brasile India Pakistan Egitto Nigeria
 Closeness massima: EAU 0.9594594594594594
-Closeness media: 0.7882314279097504
+Closeness media: 0.7882314279097506
 Closeness minima: Nigeria 0.44936708860759494---------------------
 --DATA GATHERING 15 APRILE 
 Numero di archi: 1865 
@@ -158,7 +158,7 @@ Transitività: 0.9283966516419833
 Eigenvector massima: Lussemburgo Svizzera Australia Canada Austria
 Eigenvector minima: Bielorussia Giappone India Egitto Nigeria
 Closeness massima: Arabia_Saudita 0.9726027397260274
-Closeness media: 0.855937288936042
+Closeness media: 0.8559372889360422
 Closeness minima: Nigeria 0.47651006711409394---------------------
 --DATA GATHERING 17 APRILE 
 Numero di archi: 2065 
@@ -212,7 +212,7 @@ Transitività: 0.9270630148469363
 Eigenvector massima: Svizzera Austria Lussemburgo Australia Belgio
 Eigenvector minima: Giappone Bielorussia India Egitto Nigeria
 Closeness massima: Arabia_Saudita 0.9726027397260274
-Closeness media: 0.8554764796997631
+Closeness media: 0.8554764796997634
 Closeness minima: Nigeria 0.47651006711409394---------------------
 --DATA GATHERING 19 APRILE 
 Numero di archi: 2345 
@@ -239,7 +239,7 @@ Transitività: 0.9814894532931554
 Eigenvector massima: Australia Estonia Regno_Unito EAU Irlanda
 Eigenvector minima: Egitto Turchia Giappone Bielorussia Nigeria
 Closeness massima: Arabia_Saudita 0.9861111111111112
-Closeness media: 0.9372904838288547
+Closeness media: 0.9372904838288546
 Closeness minima: Nigeria 0.4965034965034965---------------------
 --DATA GATHERING 110 APRILE 
 Numero di archi: 2166 
@@ -266,5 +266,32 @@ Transitività: 0.9494965109089303
 Eigenvector massima: Regno_Unito Canada Australia Irlanda Nuova_Zelanda
 Eigenvector minima: Nigeria Giappone Bielorussia India Egitto
 Closeness massima: Arabia_Saudita 0.9861111111111112
-Closeness media: 0.8861905234465366
+Closeness media: 0.8861905234465367
 Closeness minima: Egitto 0.5---------------------
+--DATA GATHERING 111 APRILE 
+Numero di archi: 2166 
+Grado medio non pesato: 60.166666666666664 
+Grado medio pesato: 525.0833333333334 
+Mediana: 496.0 
+Moda: ModeResult(mode=29, count=2) 
+Densità: 0.8474178403755869 
+Nodo grado massimo: Svizzera valore: 990 
+Nodo grado minimo: Egitto valore: 0 
+Arco peso maggiore tra: Australia e Canada con valore: 47 
+Arco peso maggiore tra: Australia e Nuova_Zelanda con valore: 47 
+Arco peso maggiore tra: Australia e Regno_Unito con valore: 46 
+Arco peso maggiore tra: Canada e Regno_Unito con valore: 46 
+Arco peso maggiore tra: Canada e Stati_Uniti con valore: 46 
+Arco peso minore tra: Thailandia e Uruguay con valore: 1 
+Arco peso minore tra: Turchia e Ungheria con valore: 1 
+Arco peso minore tra: Turchia e Venezuela con valore: 1 
+Arco peso minore tra: Ucraina e Venezuela con valore: 1 
+Arco peso minore tra: Uruguay e Vietnam con valore: 1 
+Hub: Austria EAU Regno_Unito Svizzera
+Il grafo è connesso: False
+Transitività: 0.9501339377704513
+Eigenvector massima: Svizzera Regno_Unito Australia Austria Canada
+Eigenvector minima: Nigeria Giappone Bielorussia India Egitto
+Closeness massima: Arabia_Saudita 0.9720293592541163
+Closeness media: 0.877050495863298
+Closeness minima: Egitto 0.0---------------------
