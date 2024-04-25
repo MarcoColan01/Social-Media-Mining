@@ -349,3 +349,30 @@ Eigenvector minima: Turchia Giappone India Nigeria Egitto
 Closeness massima: Arabia_Saudita 0.9726027397260274
 Closeness media: 0.8952582462866583
 Closeness minima: Nigeria 0.4896551724137931---------------------
+--DATA GATHERING 114 APRILE 
+Numero di archi: 2165 
+Grado medio non pesato: 60.138888888888886 
+Grado medio pesato: 485.9166666666667 
+Mediana: 509.0 
+Moda: ModeResult(mode=204, count=2) 
+Densità: 0.8470266040688575 
+Nodo grado massimo: Svizzera valore: 894 
+Nodo grado minimo: Egitto valore: 1 
+Arco peso maggiore tra: Canada e Stati_Uniti con valore: 45 
+Arco peso maggiore tra: Australia e Regno_Unito con valore: 44 
+Arco peso maggiore tra: Irlanda e Regno_Unito con valore: 44 
+Arco peso maggiore tra: Australia e Nuova_Zelanda con valore: 43 
+Arco peso maggiore tra: El_Salvador e Honduras con valore: 43 
+Arco peso minore tra: Turchia e Ungheria con valore: 1 
+Arco peso minore tra: Turchia e Venezuela con valore: 1 
+Arco peso minore tra: Ucraina e Venezuela con valore: 1 
+Arco peso minore tra: Ungheria e Vietnam con valore: 1 
+Arco peso minore tra: Uruguay e Vietnam con valore: 1 
+Hub: Austria Canada EAU Svizzera
+Il grafo è connesso: True
+Transitività: 0.9607377607773308
+Eigenvector massima: Svizzera Canada Regno_Unito Australia Austria
+Eigenvector minima: Giappone Bielorussia India Nigeria Egitto
+Closeness massima: Arabia_Saudita 0.9726027397260274
+Closeness media: 0.8864300236467993
+Closeness minima: Nigeria 0.4863013698630137---------------------
