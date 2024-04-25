@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-04-25">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="urbano latino" label="urbano latino" />
+      <node id="mambo chileno" label="mambo chileno" />
+      <node id="singer-songwriter pop" label="singer-songwriter pop" />
+      <node id="urbano chileno" label="urbano chileno" />
+      <node id="post-teen pop" label="post-teen pop" />
+      <node id="pop" label="pop" />
+      <node id="dance pop" label="dance pop" />
+      <node id="afrobeats" label="afrobeats" />
+      <node id="forro" label="forro" />
+      <node id="piseiro" label="piseiro" />
+      <node id="trap chileno" label="trap chileno" />
+      <node id="puerto rican pop" label="puerto rican pop" />
+      <node id="trap latino" label="trap latino" />
+      <node id="reggaeton" label="reggaeton" />
+      <node id="egyptian trap" label="egyptian trap" />
+      <node id="reggaeton chileno" label="reggaeton chileno" />
+      <node id="classic italian pop" label="classic italian pop" />
+      <node id="indie pop" label="indie pop" />
+      <node id="springfield mo indie" label="springfield mo indie" />
+      <node id="kashmiri pop" label="kashmiri pop" />
+      <node id="indian lo-fi" label="indian lo-fi" />
+      <node id="gujarati pop" label="gujarati pop" />
+      <node id="panamanian pop" label="panamanian pop" />
+      <node id="polish hip hop" label="polish hip hop" />
+    </nodes>
+    <edges>
+      <edge source="urbano latino" target="mambo chileno" id="0" />
+      <edge source="urbano latino" target="singer-songwriter pop" id="1" />
+      <edge source="urbano latino" target="urbano chileno" id="2" />
+      <edge source="urbano latino" target="puerto rican pop" id="3" />
+      <edge source="urbano latino" target="trap latino" id="4" />
+      <edge source="urbano latino" target="reggaeton" id="5" />
+      <edge source="urbano latino" target="panamanian pop" id="6" />
+      <edge source="mambo chileno" target="singer-songwriter pop" id="7" />
+      <edge source="mambo chileno" target="urbano chileno" id="8" />
+      <edge source="singer-songwriter pop" target="urbano chileno" id="9" />
+      <edge source="post-teen pop" target="pop" id="10" />
+      <edge source="post-teen pop" target="dance pop" id="11" />
+      <edge source="pop" target="dance pop" id="12" />
+      <edge source="forro" target="piseiro" id="13" />
+      <edge source="puerto rican pop" target="trap latino" id="14" />
+      <edge source="puerto rican pop" target="reggaeton" id="15" />
+      <edge source="puerto rican pop" target="panamanian pop" id="16" />
+      <edge source="trap latino" target="reggaeton" id="17" />
+      <edge source="trap latino" target="panamanian pop" id="18" />
+      <edge source="reggaeton" target="panamanian pop" id="19" />
+      <edge source="classic italian pop" target="indie pop" id="20" />
+      <edge source="classic italian pop" target="springfield mo indie" id="21" />
+      <edge source="classic italian pop" target="kashmiri pop" id="22" />
+      <edge source="classic italian pop" target="indian lo-fi" id="23" />
+      <edge source="indie pop" target="springfield mo indie" id="24" />
+      <edge source="kashmiri pop" target="indian lo-fi" id="25" />
+      <edge source="kashmiri pop" target="gujarati pop" id="26" />
+    </edges>
+  </graph>
+</gexf>
