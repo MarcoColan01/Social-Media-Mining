@@ -1,0 +1,94 @@
+Arco peso maggiore tra: Argentina e Uruguay con valore: 41 
+Arco peso maggiore tra: Costa_Rica e Honduras con valore: 40 
+Arco peso maggiore tra: Costa_Rica e El_Salvador con valore: 38 
+Arco peso maggiore tra: Costa_Rica e Panama con valore: 38 
+Arco peso maggiore tra: Australia e Nuova_Zelanda con valore: 37 
+
+
+Arco peso maggiore tra: Argentina e Uruguay con valore: 40 
+Arco peso maggiore tra: El_Salvador e Guatemala con valore: 40 
+Arco peso maggiore tra: Australia e Canada con valore: 39 
+Arco peso maggiore tra: Costa_Rica e El_Salvador con valore: 38 
+Arco peso maggiore tra: Ecuador e El_Salvador con valore: 38 
+
+
+Arco peso maggiore tra: Argentina e Uruguay con valore: 40 
+Arco peso maggiore tra: El_Salvador e Guatemala con valore: 39 
+Arco peso maggiore tra: El_Salvador e Honduras con valore: 39 
+Arco peso maggiore tra: Australia e Canada con valore: 38 
+Arco peso maggiore tra: Australia e Nuova_Zelanda con valore: 38 
+ 
+
+Arco peso maggiore tra: Argentina e Uruguay con valore: 40 
+Arco peso maggiore tra: Australia e Nuova_Zelanda con valore: 40 
+Arco peso maggiore tra: Irlanda e Regno_Unito con valore: 39 
+Arco peso maggiore tra: Australia e Canada con valore: 38 
+Arco peso maggiore tra: El_Salvador e Guatemala con valore: 38 
+
+
+Arco peso maggiore tra: Argentina e Uruguay con valore: 39 
+Arco peso maggiore tra: Australia e Nuova_Zelanda con valore: 39 
+Arco peso maggiore tra: El_Salvador e Guatemala con valore: 39 
+Arco peso maggiore tra: Honduras e Nicaragua con valore: 39 
+Arco peso maggiore tra: Irlanda e Regno_Unito con valore: 39 
+
+
+Arco peso maggiore tra: Australia e Nuova_Zelanda con valore: 42 
+Arco peso maggiore tra: Ecuador e Peru con valore: 41 
+Arco peso maggiore tra: Irlanda e Regno_Unito con valore: 41 
+Arco peso maggiore tra: Australia e Canada con valore: 40 
+Arco peso maggiore tra: Australia e Regno_Unito con valore: 40 
+
+
+Arco peso maggiore tra: El_Salvador e Honduras con valore: 42 
+Arco peso maggiore tra: Australia e Nuova_Zelanda con valore: 41 
+Arco peso maggiore tra: Canada e Stati_Uniti con valore: 41 
+Arco peso maggiore tra: Costa_Rica e El_Salvador con valore: 40 
+Arco peso maggiore tra: El_Salvador e Guatemala con valore: 40 
+
+Arco peso maggiore tra: Irlanda e Regno_Unito con valore: 42 
+Arco peso maggiore tra: El_Salvador e Honduras con valore: 41 
+Arco peso maggiore tra: Australia e Nuova_Zelanda con valore: 40 
+Arco peso maggiore tra: El_Salvador e Guatemala con valore: 40 
+Arco peso maggiore tra: Australia e Canada con valore: 39 
+
+Arco peso maggiore tra: El_Salvador e Guatemala con valore: 42 
+Arco peso maggiore tra: El_Salvador e Honduras con valore: 42 
+Arco peso maggiore tra: El_Salvador e Nicaragua con valore: 41 
+Arco peso maggiore tra: Argentina e Uruguay con valore: 40 
+Arco peso maggiore tra: Costa_Rica e Panama con valore: 40 
+
+
+Arco peso maggiore tra: El_Salvador e Honduras con valore: 42 
+Arco peso maggiore tra: El_Salvador e Guatemala con valore: 41 
+Arco peso maggiore tra: Australia e Canada con valore: 40 
+Arco peso maggiore tra: Australia e Nuova_Zelanda con valore: 40 
+Arco peso maggiore tra: El_Salvador e Nicaragua con valore: 40 
+ 
+
+Arco peso maggiore tra: El_Salvador e Honduras con valore: 42 
+Arco peso maggiore tra: El_Salvador e Guatemala con valore: 41 
+Arco peso maggiore tra: Canada e Nuova_Zelanda con valore: 40 
+Arco peso maggiore tra: Costa_Rica e El_Salvador con valore: 40 
+Arco peso maggiore tra: Argentina e Uruguay con valore: 39 
+ 
+
+Arco peso maggiore tra: Australia e Nuova_Zelanda con valore: 43 
+Arco peso maggiore tra: Canada e Stati_Uniti con valore: 41 
+Arco peso maggiore tra: Colombia e Costa_Rica con valore: 41 
+Arco peso maggiore tra: Argentina e Uruguay con valore: 39 
+Arco peso maggiore tra: Australia e Canada con valore: 39 
+ 
+
+Arco peso maggiore tra: Australia e Nuova_Zelanda con valore: 43 
+Arco peso maggiore tra: Australia e Canada con valore: 41 
+Arco peso maggiore tra: Argentina e Uruguay con valore: 40 
+Arco peso maggiore tra: Colombia e Costa_Rica con valore: 40 
+Arco peso maggiore tra: El_Salvador e Honduras con valore: 40 
+
+
+Arco peso maggiore tra: Australia e Nuova_Zelanda con valore: 42 
+Arco peso maggiore tra: Honduras e Nicaragua con valore: 41 
+Arco peso maggiore tra: Australia e Canada con valore: 40 
+Arco peso maggiore tra: El_Salvador e Honduras con valore: 40 
+Arco peso maggiore tra: Canada e Nuova_Zelanda con valore: 39 

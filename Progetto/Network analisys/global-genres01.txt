@@ -1,0 +1,17 @@
+--DATA GATHERING 11 APRILE 
+Numero di archi: 226 
+Grado medio non pesato: 4.708333333333333 
+Grado medio pesato: 4.708333333333333 
+Mediana: 3.0 
+Moda: ModeResult(mode=2, count=17) 
+Densità: 0.04956140350877193 
+Nodo grado massimo: None valore: 19 
+Nodo grado minimo: None valore: 0 
+Hub: None None None None None None None
+Il grafo è connesso: False
+Transitività: 0.6956061408152462
+Eigenvector massima: None None None None None
+Eigenvector minima: None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+Closeness massima: None 0.20623781676413255
+Closeness media: 0.06667716678050976
+Closeness minima: None 0.0---------------------
