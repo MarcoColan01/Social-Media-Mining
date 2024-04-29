@@ -23,8 +23,9 @@ Transitività: 0.8771646495699887
 Eigenvector massima: Svizzera Regno_Unito Australia Lussemburgo Austria
 Eigenvector minima: Nigeria Giappone India Pakistan Egitto
 Closeness massima: EAU 0.9861111111111112
-Closeness media: 0.8039310663495614
+Closeness media: 0.8039310663495612
 Closeness minima: Egitto 0.47333333333333333---------------------
+
 --DATA GATHERING 12 APRILE 
 Numero di archi: 1887 
 Grado medio non pesato: 52.416666666666664 
@@ -52,6 +53,7 @@ Eigenvector minima: Nigeria Giappone India Pakistan Egitto
 Closeness massima: EAU 0.9861111111111112
 Closeness media: 0.8112035836964826
 Closeness minima: Egitto 0.47651006711409394---------------------
+
 --DATA GATHERING 13 APRILE 
 Numero di archi: 1829 
 Grado medio non pesato: 50.80555555555556 
@@ -77,8 +79,9 @@ Transitività: 0.8828234174768829
 Eigenvector massima: Svizzera Lussemburgo Australia Belgio Canada
 Eigenvector minima: Giappone India Pakistan Egitto Nigeria
 Closeness massima: EAU 0.9726027397260274
-Closeness media: 0.7963763075788867
+Closeness media: 0.7963763075788868
 Closeness minima: Nigeria 0.45806451612903226---------------------
+
 --DATA GATHERING 14 APRILE 
 Numero di archi: 1796 
 Grado medio non pesato: 49.888888888888886 
@@ -104,8 +107,9 @@ Transitività: 0.8844477928001303
 Eigenvector massima: Svizzera Lussemburgo Australia Canada Regno_Unito
 Eigenvector minima: Brasile India Pakistan Egitto Nigeria
 Closeness massima: EAU 0.9594594594594594
-Closeness media: 0.7882314279097506
+Closeness media: 0.7882314279097504
 Closeness minima: Nigeria 0.44936708860759494---------------------
+
 --DATA GATHERING 15 APRILE 
 Numero di archi: 1865 
 Grado medio non pesato: 51.80555555555556 
@@ -133,6 +137,7 @@ Eigenvector minima: Brasile India Pakistan Egitto Nigeria
 Closeness massima: EAU 0.9594594594594594
 Closeness media: 0.806540100367267
 Closeness minima: Nigeria 0.461038961038961---------------------
+
 --DATA GATHERING 16 APRILE 
 Numero di archi: 2059 
 Grado medio non pesato: 57.19444444444444 
@@ -158,8 +163,9 @@ Transitività: 0.9283966516419833
 Eigenvector massima: Lussemburgo Svizzera Australia Canada Austria
 Eigenvector minima: Bielorussia Giappone India Egitto Nigeria
 Closeness massima: Arabia_Saudita 0.9726027397260274
-Closeness media: 0.8559372889360422
+Closeness media: 0.855937288936042
 Closeness minima: Nigeria 0.47651006711409394---------------------
+
 --DATA GATHERING 17 APRILE 
 Numero di archi: 2065 
 Grado medio non pesato: 57.361111111111114 
@@ -187,6 +193,7 @@ Eigenvector minima: Giappone Bielorussia India Egitto Nigeria
 Closeness massima: Arabia_Saudita 0.9726027397260274
 Closeness media: 0.8575732439511595
 Closeness minima: Nigeria 0.47651006711409394---------------------
+
 --DATA GATHERING 18 APRILE 
 Numero di archi: 2058 
 Grado medio non pesato: 57.166666666666664 
@@ -212,8 +219,9 @@ Transitività: 0.9270630148469363
 Eigenvector massima: Svizzera Austria Lussemburgo Australia Belgio
 Eigenvector minima: Giappone Bielorussia India Egitto Nigeria
 Closeness massima: Arabia_Saudita 0.9726027397260274
-Closeness media: 0.8554764796997634
+Closeness media: 0.8554764796997631
 Closeness minima: Nigeria 0.47651006711409394---------------------
+
 --DATA GATHERING 20 APRILE 
 Numero di archi: 2345 
 Grado medio non pesato: 65.13888888888889 
@@ -239,8 +247,9 @@ Transitività: 0.9814894532931554
 Eigenvector massima: Australia Estonia Regno_Unito EAU Irlanda
 Eigenvector minima: Egitto Turchia Giappone Bielorussia Nigeria
 Closeness massima: Arabia_Saudita 0.9861111111111112
-Closeness media: 0.9372904838288546
+Closeness media: 0.9372904838288547
 Closeness minima: Nigeria 0.4965034965034965---------------------
+
 --DATA GATHERING 21 APRILE 
 Numero di archi: 2166 
 Grado medio non pesato: 60.166666666666664 
@@ -266,8 +275,9 @@ Transitività: 0.9494965109089303
 Eigenvector massima: Regno_Unito Canada Australia Irlanda Nuova_Zelanda
 Eigenvector minima: Nigeria Giappone Bielorussia India Egitto
 Closeness massima: Arabia_Saudita 0.9861111111111112
-Closeness media: 0.8861905234465367
+Closeness media: 0.8861905234465366
 Closeness minima: Egitto 0.5---------------------
+
 --DATA GATHERING 22 APRILE 
 Numero di archi: 2166 
 Grado medio non pesato: 60.166666666666664 
@@ -293,8 +303,9 @@ Transitività: 0.9501339377704513
 Eigenvector massima: Svizzera Regno_Unito Australia Austria Canada
 Eigenvector minima: Nigeria Giappone Bielorussia India Egitto
 Closeness massima: Arabia_Saudita 0.9720293592541163
-Closeness media: 0.877050495863298
+Closeness media: 0.8770504958632984
 Closeness minima: Egitto 0.0---------------------
+
 --DATA GATHERING 23 APRILE 
 Numero di archi: 2191 
 Grado medio non pesato: 60.861111111111114 
@@ -320,8 +331,9 @@ Transitività: 0.959236274100419
 Eigenvector massima: Svizzera Regno_Unito Austria Australia Canada
 Eigenvector minima: Turchia Giappone India Nigeria Egitto
 Closeness massima: Arabia_Saudita 0.9726027397260274
-Closeness media: 0.8929998104568566
+Closeness media: 0.8929998104568564
 Closeness minima: Nigeria 0.4863013698630137---------------------
+
 --DATA GATHERING 24 APRILE 
 Numero di archi: 2199 
 Grado medio non pesato: 61.083333333333336 
@@ -347,8 +359,9 @@ Transitività: 0.9610002146383344
 Eigenvector massima: Canada Svizzera Australia Regno_Unito Austria
 Eigenvector minima: Turchia Giappone India Nigeria Egitto
 Closeness massima: Arabia_Saudita 0.9726027397260274
-Closeness media: 0.8952582462866583
+Closeness media: 0.895258246286658
 Closeness minima: Nigeria 0.4896551724137931---------------------
+
 --DATA GATHERING 25 APRILE 
 Numero di archi: 2165 
 Grado medio non pesato: 60.138888888888886 
@@ -374,5 +387,33 @@ Transitività: 0.9607377607773308
 Eigenvector massima: Svizzera Canada Regno_Unito Australia Austria
 Eigenvector minima: Giappone Bielorussia India Nigeria Egitto
 Closeness massima: Arabia_Saudita 0.9726027397260274
-Closeness media: 0.8864300236467993
+Closeness media: 0.8864300236467991
 Closeness minima: Nigeria 0.4863013698630137---------------------
+
+--DATA GATHERING 26 APRILE 
+Numero di archi: 1963 
+Grado medio non pesato: 54.52777777777778 
+Grado medio pesato: 399.69444444444446 
+Mediana: 441.5 
+Moda: ModeResult(mode=2, count=2) 
+Densità: 0.7679968701095462 
+Nodo grado massimo: Canada valore: 755 
+Nodo grado minimo: Egitto valore: 2 
+Arco peso maggiore tra: Australia e Canada con valore: 44 
+Arco peso maggiore tra: Irlanda e Regno_Unito con valore: 43 
+Arco peso maggiore tra: Canada e Stati_Uniti con valore: 41 
+Arco peso maggiore tra: El_Salvador e Honduras con valore: 41 
+Arco peso maggiore tra: Argentina e Uruguay con valore: 40 
+Arco peso minore tra: Taiwan e Uruguay con valore: 1 
+Arco peso minore tra: Thailandia e Uruguay con valore: 1 
+Arco peso minore tra: Turchia e Ungheria con valore: 1 
+Arco peso minore tra: Ungheria e Vietnam con valore: 1 
+Arco peso minore tra: Uruguay e Vietnam con valore: 1 
+Hub: Austria Canada EAU Svizzera
+Il grafo è connesso: True
+Transitività: 0.934542443921244
+Eigenvector massima: Canada Australia Regno_Unito Irlanda Svizzera
+Eigenvector minima: Brasile India Pakistan Egitto Nigeria
+Closeness massima: Arabia_Saudita 0.9466666666666667
+Closeness media: 0.8325430806377769
+Closeness minima: Nigeria 0.47019867549668876---------------------

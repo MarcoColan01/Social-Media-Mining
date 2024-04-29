@@ -25,6 +25,7 @@ Eigenvector minima: India Bielorussia Thailandia Turchia Giappone
 Closeness massima: Arabia_Saudita 1.0
 Closeness media: 1.0
 Closeness minima: Arabia_Saudita 1.0---------------------
+
 --DATA GATHERING 12 APRILE 
 Numero di archi: 2556 
 Grado medio non pesato: 71.0 
@@ -52,6 +53,7 @@ Eigenvector minima: Taiwan Turchia India Thailandia Giappone
 Closeness massima: Arabia_Saudita 1.0
 Closeness media: 1.0
 Closeness minima: Arabia_Saudita 1.0---------------------
+
 --DATA GATHERING 13 APRILE 
 Numero di archi: 2556 
 Grado medio non pesato: 71.0 
@@ -79,6 +81,7 @@ Eigenvector minima: Taiwan India Turchia Thailandia Giappone
 Closeness massima: Arabia_Saudita 1.0
 Closeness media: 1.0
 Closeness minima: Arabia_Saudita 1.0---------------------
+
 --DATA GATHERING 14 APRILE 
 Numero di archi: 2556 
 Grado medio non pesato: 71.0 
@@ -106,6 +109,7 @@ Eigenvector minima: India Turchia Taiwan Thailandia Giappone
 Closeness massima: Arabia_Saudita 1.0
 Closeness media: 1.0
 Closeness minima: Arabia_Saudita 1.0---------------------
+
 --DATA GATHERING 15 APRILE 
 Numero di archi: 2556 
 Grado medio non pesato: 71.0 
@@ -133,6 +137,7 @@ Eigenvector minima: India Taiwan Turchia Giappone Thailandia
 Closeness massima: Arabia_Saudita 1.0
 Closeness media: 1.0
 Closeness minima: Arabia_Saudita 1.0---------------------
+
 --DATA GATHERING 16 APRILE 
 Numero di archi: 2556 
 Grado medio non pesato: 71.0 
@@ -160,6 +165,7 @@ Eigenvector minima: Vietnam Turchia Taiwan Thailandia Giappone
 Closeness massima: Arabia_Saudita 1.0
 Closeness media: 1.0
 Closeness minima: Arabia_Saudita 1.0---------------------
+
 --DATA GATHERING 17 APRILE 
 Numero di archi: 2556 
 Grado medio non pesato: 71.0 
@@ -187,6 +193,7 @@ Eigenvector minima: India Taiwan Turchia Thailandia Giappone
 Closeness massima: Arabia_Saudita 1.0
 Closeness media: 1.0
 Closeness minima: Arabia_Saudita 1.0---------------------
+
 --DATA GATHERING 18 APRILE 
 Numero di archi: 2556 
 Grado medio non pesato: 71.0 
@@ -214,7 +221,8 @@ Eigenvector minima: Taiwan Turchia Indonesia Thailandia Giappone
 Closeness massima: Arabia_Saudita 1.0
 Closeness media: 1.0
 Closeness minima: Arabia_Saudita 1.0---------------------
---DATA GATHERING 19 APRILE 
+
+--DATA GATHERING 20 APRILE 
 Numero di archi: 2556 
 Grado medio non pesato: 71.0 
 Grado medio pesato: 1029.9444444444443 
@@ -241,7 +249,8 @@ Eigenvector minima: Taiwan Indonesia Thailandia Turchia Giappone
 Closeness massima: Arabia_Saudita 1.0
 Closeness media: 1.0
 Closeness minima: Arabia_Saudita 1.0---------------------
---DATA GATHERING 110 APRILE 
+
+--DATA GATHERING 21 APRILE 
 Numero di archi: 2556 
 Grado medio non pesato: 71.0 
 Grado medio pesato: 1029.0555555555557 
@@ -268,7 +277,8 @@ Eigenvector minima: India Indonesia Thailandia Turchia Giappone
 Closeness massima: Arabia_Saudita 1.0
 Closeness media: 1.0
 Closeness minima: Arabia_Saudita 1.0---------------------
---DATA GATHERING 111 APRILE 
+
+--DATA GATHERING 22 APRILE 
 Numero di archi: 2556 
 Grado medio non pesato: 71.0 
 Grado medio pesato: 1033.9444444444443 
@@ -295,7 +305,8 @@ Eigenvector minima: Taiwan Giappone Indonesia Thailandia Turchia
 Closeness massima: Arabia_Saudita 1.0
 Closeness media: 1.0
 Closeness minima: Arabia_Saudita 1.0---------------------
---DATA GATHERING 112 APRILE 
+
+--DATA GATHERING 23 APRILE 
 Numero di archi: 2556 
 Grado medio non pesato: 71.0 
 Grado medio pesato: 1045.5555555555557 
@@ -322,7 +333,8 @@ Eigenvector minima: Taiwan Thailandia Turchia Giappone Bielorussia
 Closeness massima: Arabia_Saudita 1.0
 Closeness media: 1.0
 Closeness minima: Arabia_Saudita 1.0---------------------
---DATA GATHERING 113 APRILE 
+
+--DATA GATHERING 24 APRILE 
 Numero di archi: 2556 
 Grado medio non pesato: 71.0 
 Grado medio pesato: 1047.388888888889 
@@ -349,7 +361,8 @@ Eigenvector minima: Giappone Taiwan Bielorussia Thailandia Turchia
 Closeness massima: Arabia_Saudita 1.0
 Closeness media: 1.0
 Closeness minima: Arabia_Saudita 1.0---------------------
---DATA GATHERING 114 APRILE 
+
+--DATA GATHERING 25 APRILE 
 Numero di archi: 2556 
 Grado medio non pesato: 71.0 
 Grado medio pesato: 1030.5833333333333 
@@ -373,6 +386,34 @@ Il grafo è connesso: True
 Transitività: 1.0
 Eigenvector massima: Canada Australia Nuova_Zelanda Paraguay Costa_Rica
 Eigenvector minima: Giappone Bielorussia Taiwan Thailandia Turchia
+Closeness massima: Arabia_Saudita 1.0
+Closeness media: 1.0
+Closeness minima: Arabia_Saudita 1.0---------------------
+
+--DATA GATHERING 26 APRILE 
+Numero di archi: 2556 
+Grado medio non pesato: 71.0 
+Grado medio pesato: 1054.1944444444443 
+Mediana: 1112.5 
+Moda: ModeResult(mode=1089, count=2) 
+Densità: 1.0 
+Nodo grado massimo: Australia valore: 1428 
+Nodo grado minimo: Thailandia valore: 535 
+Arco peso maggiore tra: Honduras e Nicaragua con valore: 42 
+Arco peso maggiore tra: Australia e Canada con valore: 41 
+Arco peso maggiore tra: Australia e Nuova_Zelanda con valore: 40 
+Arco peso maggiore tra: Irlanda e Regno_Unito con valore: 40 
+Arco peso maggiore tra: Australia e Regno_Unito con valore: 39 
+Arco peso minore tra: Hong_Kong e Turchia con valore: 5 
+Arco peso minore tra: Taiwan e Turchia con valore: 5 
+Arco peso minore tra: Thailandia e Turchia con valore: 5 
+Arco peso minore tra: Bielorussia e Taiwan con valore: 4 
+Arco peso minore tra: Bielorussia e Thailandia con valore: 4 
+Hub: Australia Canada Svizzera Ungheria
+Il grafo è connesso: True
+Transitività: 1.0
+Eigenvector massima: Australia Canada Svizzera Regno_Unito Ungheria
+Eigenvector minima: Turchia Taiwan Giappone Bielorussia Thailandia
 Closeness massima: Arabia_Saudita 1.0
 Closeness media: 1.0
 Closeness minima: Arabia_Saudita 1.0---------------------

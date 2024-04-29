@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-04-29">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="urbano chileno" label="urbano chileno" />
+      <node id="mambo chileno" label="mambo chileno" />
+      <node id="singer-songwriter pop" label="singer-songwriter pop" />
+      <node id="urbano latino" label="urbano latino" />
+      <node id="pop" label="pop" />
+      <node id="post-teen pop" label="post-teen pop" />
+      <node id="dance pop" label="dance pop" />
+      <node id="classic italian pop" label="classic italian pop" />
+      <node id="reggaeton" label="reggaeton" />
+      <node id="puerto rican pop" label="puerto rican pop" />
+      <node id="trap latino" label="trap latino" />
+      <node id="trap chileno" label="trap chileno" />
+      <node id="afrobeats" label="afrobeats" />
+      <node id="mahraganat" label="mahraganat" />
+      <node id="egyptian trap" label="egyptian trap" />
+      <node id="reggaeton chileno" label="reggaeton chileno" />
+      <node id="indie pop" label="indie pop" />
+      <node id="springfield mo indie" label="springfield mo indie" />
+      <node id="modern bollywood" label="modern bollywood" />
+      <node id="hare krishna" label="hare krishna" />
+      <node id="filmi" label="filmi" />
+      <node id="indian lo-fi" label="indian lo-fi" />
+      <node id="reggaeton mexicano" label="reggaeton mexicano" />
+      <node id="gujarati pop" label="gujarati pop" />
+      <node id="kashmiri pop" label="kashmiri pop" />
+      <node id="panamanian pop" label="panamanian pop" />
+      <node id="polish hip hop" label="polish hip hop" />
+    </nodes>
+    <edges>
+      <edge source="urbano chileno" target="mambo chileno" id="0" />
+      <edge source="urbano chileno" target="singer-songwriter pop" id="1" />
+      <edge source="urbano chileno" target="urbano latino" id="2" />
+      <edge source="mambo chileno" target="singer-songwriter pop" id="3" />
+      <edge source="mambo chileno" target="urbano latino" id="4" />
+      <edge source="singer-songwriter pop" target="urbano latino" id="5" />
+      <edge source="singer-songwriter pop" target="classic italian pop" id="6" />
+      <edge source="singer-songwriter pop" target="mahraganat" id="7" />
+      <edge source="singer-songwriter pop" target="egyptian trap" id="8" />
+      <edge source="urbano latino" target="reggaeton" id="9" />
+      <edge source="urbano latino" target="puerto rican pop" id="10" />
+      <edge source="urbano latino" target="trap latino" id="11" />
+      <edge source="urbano latino" target="panamanian pop" id="12" />
+      <edge source="pop" target="post-teen pop" id="13" />
+      <edge source="pop" target="dance pop" id="14" />
+      <edge source="post-teen pop" target="dance pop" id="15" />
+      <edge source="classic italian pop" target="mahraganat" id="16" />
+      <edge source="classic italian pop" target="egyptian trap" id="17" />
+      <edge source="classic italian pop" target="indie pop" id="18" />
+      <edge source="classic italian pop" target="springfield mo indie" id="19" />
+      <edge source="reggaeton" target="puerto rican pop" id="20" />
+      <edge source="reggaeton" target="trap latino" id="21" />
+      <edge source="reggaeton" target="panamanian pop" id="22" />
+      <edge source="puerto rican pop" target="trap latino" id="23" />
+      <edge source="puerto rican pop" target="panamanian pop" id="24" />
+      <edge source="trap latino" target="panamanian pop" id="25" />
+      <edge source="mahraganat" target="egyptian trap" id="26" />
+      <edge source="indie pop" target="springfield mo indie" id="27" />
+      <edge source="indie pop" target="modern bollywood" id="28" />
+      <edge source="indie pop" target="hare krishna" id="29" />
+      <edge source="indie pop" target="filmi" id="30" />
+      <edge source="springfield mo indie" target="modern bollywood" id="31" />
+      <edge source="springfield mo indie" target="hare krishna" id="32" />
+      <edge source="springfield mo indie" target="filmi" id="33" />
+      <edge source="modern bollywood" target="hare krishna" id="34" />
+      <edge source="modern bollywood" target="filmi" id="35" />
+      <edge source="hare krishna" target="filmi" id="36" />
+      <edge source="gujarati pop" target="kashmiri pop" id="37" />
+    </edges>
+  </graph>
+</gexf>
