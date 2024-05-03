@@ -34,10 +34,10 @@ from sklearn.ensemble import RandomForestClassifier
 import warnings
 warnings.filterwarnings('ignore')
 
-dataset_link_prediction = pd.read_csv('dati_ordinati\\machine-global\\machine-global-no-spazi.csv')
+dataset_link_prediction = pd.read_csv('bello.csv')
 
 generi = set()
-with open('dati_ordinati\\machine-global\\machine-global-no-spazi.csv', 'r') as f:
+with open('machine-global-no-spazi.csv', 'r') as f:
     csv_reader = csv.reader(f)
     for line in csv_reader:
         s=line[3].replace("[","")
@@ -55,7 +55,7 @@ for genere in generi:
 print(dataset_link_prediction)
 
 riga = -1
-with open('dati_ordinati\\machine-global\\machine-global-no-spazi.csv', 'r') as f:
+with open('machine-global-no-spazi.csv', 'r') as f:
     csv_reader = csv.reader(f)
     for line in csv_reader:
         if line[0] != 'paese':

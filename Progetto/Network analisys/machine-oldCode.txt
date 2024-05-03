@@ -5,87 +5,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report, accuracy_score
-
-# Ignora i warning
-import warnings
-warnings.filterwarnings('ignore')
-
-# Carica il dataset
-dataset_link_prediction = pd.read_csv('machine-global03.csv', encoding = 'utf-16')
-
-# Estrai i generi unici
-generi = set()
-for i in range (1,2):
-    with open('machine-global03.csv', 'r') as f:
-        csv_reader = csv.reader(f)
-        for line in csv_reader:
-            if len(line) > 3:
-                s = line[3].replace("[","").replace("]","").replace("'","")
-                genres = s.split(",")
-                for genre in genres:
-                    generi.add(genre.strip())
-
-# Aggiungi colonne per ogni genere al dataframe
-for genere in generi:
-    dataset_link_prediction[genere] = 0
-
-# Popola il dataframe con i generi
-riga = -1
-for i in range (1,3):
-    with open('machine-global03.csv', 'r') as f:
-        csv_reader = csv.reader(f)
-        for line in csv_reader:
-            if line[0] != 'paese':
-                riga += 1
-                if len(line) > 3:
-                    s = line[3].replace("[","").replace("]","").replace("'","")
-                    genres = s.split(",")
-                    for genre in genres:
-                        dataset_link_prediction.loc[riga, genre.strip()] = 1
-
-# Seleziona le features e le etichette
-X = dataset_link_prediction.iloc[:, 4:] # Matrice delle features
-y = dataset_link_prediction['paese'] # Etichette
-
-# Suddividi i dati in training e test set
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
-
-# Applica la trasformazione MinMaxScaler alle features di training
-min_max_scaler = MinMaxScaler()
-X_train_minmax = min_max_scaler.fit_transform(X_train)
-
-# Rimuovi righe con etichette mancanti dai dati di addestramento
-X_train_minmax_fix = X_train_minmax[~y_train.isnull()]
-y_train = y_train.dropna()
-
-# Crea e addestra il classificatore Logistic Regression
-clf_logreg = LogisticRegression()
-clf_logreg.fit(X_train_minmax_fix, y_train)
-X_test_minmax = min_max_scaler.transform(X_test)
-
-# Rimuovi righe con valori NaN dai dati di test
-X_test_minmax_cleaned = X_test_minmax[~np.isnan(X_test_minmax).any(axis=1)]
-
-# Rimuovi righe con valori NaN anche dalle etichette di test
-y_test_cleaned = y_test[~np.isnan(X_test_minmax).any(axis=1)]
-
-# Fai previsioni solo sulle etichette corrispondenti ai dati puliti
-y_predicted_lr = clf_logreg.predict(X_test_minmax_cleaned)
-
-# Valuta le prestazioni del modello
-print(classification_report(y_test_cleaned, y_predicted_lr))
-#print(accuracy_score(y_test, y_predicted_lr))
-
-
-
-
-import pandas as pd
-import numpy as np
-import csv
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import classification_report, accuracy_score
 from sklearn.impute import SimpleImputer
 
 # Ignora i warning
@@ -93,11 +12,11 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Carica il dataset
-dataset_link_prediction = pd.read_csv('machine-global03.csv')
+dataset_link_prediction = pd.read_csv('machine-global-merged.csv')
 
 # Estrai i generi unici
 generi = set()
-with open('machine-global03.csv', 'r') as f:
+with open('machine-global-merged.csv', 'r') as f:
     csv_reader = csv.reader(f)
     for line in csv_reader:
         if len(line) > 3:
@@ -112,7 +31,7 @@ for genere in generi:
 
 # Popola il dataframe con i generi
 riga = -1
-with open('machine-global03.csv', 'r') as f:
+with open('machine-global-merged.csv', 'r') as f:
     csv_reader = csv.reader(f)
     for line in csv_reader:
         if line[0] != 'paese':
@@ -130,9 +49,12 @@ y = dataset_link_prediction['paese']  # Etichette
 # Suddividi i dati in training e test set
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
 
+# Trasforma le stringhe in valori numerici (se possibile)
+X_train_numeric = X_train.apply(pd.to_numeric, errors='coerce').fillna(0)
+
 # Applica la trasformazione MinMaxScaler alle features di training
 min_max_scaler = MinMaxScaler()
-X_train_minmax = min_max_scaler.fit_transform(X_train)
+X_train_minmax = min_max_scaler.fit_transform(X_train_numeric)
 
 # Imputa i valori mancanti nelle features di training
 imputer = SimpleImputer(strategy='mean')
@@ -149,7 +71,8 @@ clf_logreg = LogisticRegression()
 clf_logreg.fit(X_train_imputed_cleaned, y_train_cleaned)
 
 # Applica la trasformazione MinMaxScaler ai dati di test
-X_test_minmax = min_max_scaler.transform(X_test)
+X_test_numeric = X_test.apply(pd.to_numeric, errors='coerce').fillna(0)
+X_test_minmax = min_max_scaler.transform(X_test_numeric)
 
 # Imputa i valori mancanti nelle features di test
 X_test_imputed = imputer.transform(X_test_minmax)
@@ -157,120 +80,6 @@ X_test_imputed = imputer.transform(X_test_minmax)
 # Predici i risultati sui dati di test
 y_predicted_lr = clf_logreg.predict(X_test_imputed)
 
-# Converti le previsioni in stringhe
-y_predicted_lr = y_predicted_lr.astype(str)
-
 # Valuta le prestazioni del modello
-print(classification_report(y_test.astype(str), y_predicted_lr))
-#print(accuracy_score(y_test.astype(str), y_predicted_lr))
-
-
-
-from datetime import datetime
-from collections import Counter
-from unittest import result
-from joblib import PrintTime
-import sklearn
-
-import pandas as pd
-import numpy as np
-import csv
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import classification_report, accuracy_score
-
-# Ignora i warning
-import warnings
-warnings.filterwarnings('ignore')
-
-# Carica il dataset
-dataset_link_prediction = pd.read_csv('machine-global-merged.csv')
-
-# Estrai i generi unici
-generi = set()
-
-with open('machine-global-merged.csv', 'r') as f:
-    csv_reader = csv.reader(f)
-    for line in csv_reader:
-        if len(line) > 3:
-            s = line[3].replace("[","").replace("]","").replace("'","")
-            genres = s.split(",")
-            for genre in genres:
-                generi.add(genre.strip())
-
-'''
-for i in range (1,2):
-    with open('machine-global03.csv', 'r') as f:
-        csv_reader = csv.reader(f)
-        for line in csv_reader:
-            if len(line) > 3:
-                s = line[3].replace("[","").replace("]","").replace("'","")
-                genres = s.split(",")
-                for genre in genres:
-                    generi.add(genre.strip())
-'''                    
-
-# Aggiungi colonne per ogni genere al dataframe
-for genere in generi:
-    dataset_link_prediction[genere] = 0
-
-# Popola il dataframe con i generi
-riga = -1
-with open('machine-global-merged.csv', 'r') as f:
-    csv_reader = csv.reader(f)
-    for line in csv_reader:
-        if line[0] != 'paese':
-            riga += 1
-            if len(line) > 3:
-                s = line[3].replace("[","").replace("]","").replace("'","")
-                genres = s.split(",")
-                for genre in genres:
-                    dataset_link_prediction.loc[riga, genre.strip()] = 1
-
-'''
-for i in range (1,3):
-    with open('machine-global03.csv', 'r') as f:
-        csv_reader = csv.reader(f)
-        for line in csv_reader:
-            if line[0] != 'paese':
-                riga += 1
-                if len(line) > 3:
-                    s = line[3].replace("[","").replace("]","").replace("'","")
-                    genres = s.split(",")
-                    for genre in genres:
-                        dataset_link_prediction.loc[riga, genre.strip()] = 1
-'''
-
-# Seleziona le features e le etichette
-X = dataset_link_prediction.iloc[:, 4:] # Matrice delle features
-y = dataset_link_prediction['paese'] # Etichette
-
-# Suddividi i dati in training e test set
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
-
-# Applica la trasformazione MinMaxScaler alle features di training
-min_max_scaler = MinMaxScaler()
-X_train_minmax = min_max_scaler.fit_transform(X_train)
-
-# Rimuovi righe con etichette mancanti dai dati di addestramento
-X_train_minmax_fix = X_train_minmax[~y_train.isnull()]
-y_train = y_train.dropna()
-
-# Crea e addestra il classificatore Logistic Regression
-clf_logreg = LogisticRegression()
-clf_logreg.fit(X_train_minmax_fix, y_train)
-X_test_minmax = min_max_scaler.transform(X_test)
-
-# Rimuovi righe con valori NaN dai dati di test
-X_test_minmax_cleaned = X_test_minmax[~np.isnan(X_test_minmax).any(axis=1)]
-
-# Rimuovi righe con valori NaN anche dalle etichette di test
-y_test_cleaned = y_test[~np.isnan(X_test_minmax).any(axis=1)]
-
-# Fai previsioni solo sulle etichette corrispondenti ai dati puliti
-y_predicted_lr = clf_logreg.predict(X_test_minmax_cleaned)
-
-# Valuta le prestazioni del modello
-print(classification_report(y_test_cleaned, y_predicted_lr))
-print(accuracy_score(y_test, y_predicted_lr))
+print(classification_report(y_test.astype(str), y_predicted_lr.astype(str)))
+print(accuracy_score(y_test.astype(str), y_predicted_lr.astype(str)))
