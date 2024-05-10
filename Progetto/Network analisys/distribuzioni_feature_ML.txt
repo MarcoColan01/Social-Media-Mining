@@ -1,0 +1,6 @@
+energy              quasi normale
+speechiness         esponenziale
+acousticness        esponenziale
+instrumentalness    quasi esponenziale
+valence             quasi normale
+tempo               quasi normale
