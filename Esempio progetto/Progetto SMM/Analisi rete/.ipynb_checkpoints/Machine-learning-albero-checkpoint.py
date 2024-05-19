@@ -1,7 +1,6 @@
 from datetime import datetime
 from collections import Counter
 from unittest import result
-from joblib import PrintTime
 
 # Data management
 import pandas as pd
@@ -34,10 +33,11 @@ from sklearn.ensemble import RandomForestClassifier
 import warnings
 warnings.filterwarnings('ignore')
 
-dataset_link_prediction = pd.read_csv('machine-global-no-spazi.csv')
+dataset_link_prediction = pd.read_csv('dati_ordinati\\machine-global\\machine-global.csv')
+#dataset_link_prediction = dataset_link_prediction[len(dataset_link_prediction['genres']) > 0]
 
 generi = set()
-with open('machine-global-no-spazi.csv', 'r') as f:
+with open('dati_ordinati\\machine-global\\machine-global.csv', 'r') as f:
     csv_reader = csv.reader(f)
     for line in csv_reader:
         s=line[3].replace("[","")
@@ -52,10 +52,8 @@ with open('machine-global-no-spazi.csv', 'r') as f:
 for genere in generi:
     dataset_link_prediction[genere] = 0
 
-print(dataset_link_prediction)
-
 riga = -1
-with open('machine-global-no-spazi.csv', 'r') as f:
+with open('dati_ordinati\\machine-global\\machine-global.csv', 'r') as f:
     csv_reader = csv.reader(f)
     for line in csv_reader:
         if line[0] != 'paese':
@@ -67,30 +65,27 @@ with open('machine-global-no-spazi.csv', 'r') as f:
             for genre in genres:
                 if len(genre) > 0 and genre[0] == " ":
                     genre = genre[1:]
+                print(genre)
                 dataset_link_prediction.loc[riga,genre] = 1
 
 X = dataset_link_prediction.iloc[:, 4:] #feature matrix
 y = dataset_link_prediction['paese'] # label
 
-#print(dataset_link_prediction.loc[1,'art rock'])
+print(X)
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
-print(len(X_train), len(X_test), len(y_train), len(y_test))
 
 min_max_scaler = MinMaxScaler()
 X_train_minmax = min_max_scaler.fit_transform(X_train)
 
-clf_logreg = LogisticRegression()
-clf_logreg.fit(X_train_minmax, y_train)
+clf_rnf = RandomForestClassifier(n_estimators=100, max_leaf_nodes=16, n_jobs=-1, max_features=3)
+clf_rnf.fit(X_train_minmax, y_train)
 X_test_minmax = min_max_scaler.transform(X_test)
-y_predicted_lr = clf_logreg.predict(X_test_minmax)
+y_predicted_lr = clf_rnf.predict(X_test_minmax)
+
 
 print(classification_report(y_test,y_predicted_lr))
-
 print(accuracy_score(y_test, y_predicted_lr))
-#print(len(set(y_test) - set(y_predicted_lr)))
-
-
 
 
 

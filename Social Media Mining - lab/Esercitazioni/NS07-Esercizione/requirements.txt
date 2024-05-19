@@ -1,0 +1,3 @@
+networkx
+statsmodels==0.14.2
+community
