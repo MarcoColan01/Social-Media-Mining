@@ -1,0 +1,50 @@
+--DATA GATHERING 11 APRILE 
+Numero di archi: 1856 
+Grado medio non pesato: 51.55555555555556 
+Grado medio pesato: 368.77777777777777 
+Mediana: 369.0 
+Moda: ModeResult(mode=28, count=2) 
+Densità: 0.7261345852895149 
+Nodo grado massimo: Svizzera valore: 739 
+Nodo grado minimo: Egitto valore: 2 
+Arco peso maggiore tra: Argentina e Uruguay con valore: 39 
+Arco peso maggiore tra: Australia e Canada con valore: 38 
+Arco peso maggiore tra: Canada e Stati_Uniti con valore: 38 
+Arco peso maggiore tra: El_Salvador e Honduras con valore: 38 
+Arco peso maggiore tra: Irlanda e Regno_Unito con valore: 38 
+Arco peso minore tra: Svizzera e Uruguay con valore: 1 
+Arco peso minore tra: Svizzera e Vietnam con valore: 1 
+Arco peso minore tra: Turchia e Ungheria con valore: 1 
+Arco peso minore tra: Ucraina e Venezuela con valore: 1 
+Arco peso minore tra: Ungheria e Venezuela con valore: 1 
+Hub: Australia Lussemburgo Regno_Unito Svizzera
+Il grafo è connesso: True
+Transitività: 0.8771646495699887
+Assortatività grado nodi: -0.08262913354129416
+Eigenvector massima: Svizzera Regno_Unito Australia Lussemburgo Austria
+Eigenvector minima: Nigeria Giappone India Pakistan Egitto---------------------
+--DATA GATHERING 115 APRILE 
+Numero di archi: 1963 
+Grado medio non pesato: 54.52777777777778 
+Grado medio pesato: 399.69444444444446 
+Mediana: 441.5 
+Moda: ModeResult(mode=2, count=2) 
+Densità: 0.7679968701095462 
+Nodo grado massimo: Canada valore: 755 
+Nodo grado minimo: Egitto valore: 2 
+Arco peso maggiore tra: Australia e Canada con valore: 44 
+Arco peso maggiore tra: Irlanda e Regno_Unito con valore: 43 
+Arco peso maggiore tra: Canada e Stati_Uniti con valore: 41 
+Arco peso maggiore tra: El_Salvador e Honduras con valore: 41 
+Arco peso maggiore tra: Argentina e Uruguay con valore: 40 
+Arco peso minore tra: Taiwan e Uruguay con valore: 1 
+Arco peso minore tra: Thailandia e Uruguay con valore: 1 
+Arco peso minore tra: Turchia e Ungheria con valore: 1 
+Arco peso minore tra: Ungheria e Vietnam con valore: 1 
+Arco peso minore tra: Uruguay e Vietnam con valore: 1 
+Hub: Austria Canada EAU Svizzera
+Il grafo è connesso: True
+Transitività: 0.934542443921244
+Assortatività grado nodi: -0.018866869218673143
+Eigenvector massima: Canada Australia Regno_Unito Irlanda Svizzera
+Eigenvector minima: Brasile India Pakistan Egitto Nigeria---------------------
